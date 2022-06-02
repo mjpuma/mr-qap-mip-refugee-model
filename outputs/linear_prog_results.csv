@@ -1,0 +1,407 @@
+variable,value,conflict,crossing,country,mode
+baryshivka__choptysazakhon__hungary__driving,0.0,Baryshivka,Chop (Tysa) - Zakhon,Hungary,driving
+baryshivka__malyibereznyiubla__slovakia__driving,0.0,Baryshivka,Malyi Bereznyi - Ubl'a,Slovakia,driving
+baryshivka__platonovehoianulnou__moldova__driving,0.0,Baryshivka,Platonove - Hoianul Nou,Moldova,driving
+baryshivka__porubnesiret__romania__driving,0.0,Baryshivka,Porubne - Siret,Romania,driving
+baryshivka__senkivkanoviyurkovychi__russianfederation__driving,0.0,Baryshivka,Senkivka - Novi Yurkovychi,Russian Federation,driving
+baryshivka__slavutychkomaryn__belarus__driving,0.0,Baryshivka,Slavutych - Komaryn,Belarus,driving
+baryshivka__yahodyndorohusk__poland__driving,536622.0,Baryshivka,Yahodyn - Dorohusk,Poland,driving
+bilohorivka__choptysazakhon__hungary__driving,0.0,Bilohorivka,Chop (Tysa) - Zakhon,Hungary,driving
+bilohorivka__krasnatalivkavoloshino__russianfederation__driving,0.0,Bilohorivka,Krasna Talivka - Voloshino,Russian Federation,driving
+bilohorivka__malyibereznyiubla__slovakia__driving,0.0,Bilohorivka,Malyi Bereznyi - Ubl'a,Slovakia,driving
+bilohorivka__platonovehoianulnou__moldova__driving,0.0,Bilohorivka,Platonove - Hoianul Nou,Moldova,driving
+bilohorivka__porubnesiret__romania__driving,162643.0,Bilohorivka,Porubne - Siret,Romania,driving
+bilohorivka__vilchaoleksandrivka__belarus__driving,0.0,Bilohorivka,Vilcha - Oleksandrivka,Belarus,driving
+bilohorivka__yahodyndorohusk__poland__driving,0.0,Bilohorivka,Yahodyn - Dorohusk,Poland,driving
+borodianka__choptysazakhon__hungary__driving,0.0,Borodianka,Chop (Tysa) - Zakhon,Hungary,driving
+borodianka__malyibereznyiubla__slovakia__driving,0.0,Borodianka,Malyi Bereznyi - Ubl'a,Slovakia,driving
+borodianka__mohylivpodilskyiotach__moldova__driving,0.0,Borodianka,Mohyliv-Podilskyi - Otach,Moldova,driving
+borodianka__porubnesiret__romania__driving,0.0,Borodianka,Porubne - Siret,Romania,driving
+borodianka__senkivkanoviyurkovychi__russianfederation__driving,0.0,Borodianka,Senkivka - Novi Yurkovychi,Russian Federation,driving
+borodianka__vilchaoleksandrivka__belarus__driving,0.0,Borodianka,Vilcha - Oleksandrivka,Belarus,driving
+borodianka__yahodyndorohusk__poland__driving,36926.0,Borodianka,Yahodyn - Dorohusk,Poland,driving
+bucha__bachivsktroiebortne__russianfederation__transit,0.0,Bucha,Bachivsk - Troiebortne,Russian Federation,transit
+bucha__choptysazakhon__hungary__driving,0.0,Bucha,Chop (Tysa) - Zakhon,Hungary,driving
+bucha__choptysazakhon__hungary__transit,84938.0,Bucha,Chop (Tysa) - Zakhon,Hungary,transit
+bucha__krakivetskorchova__poland__transit,0.0,Bucha,Krakivets - Korchova,Poland,transit
+bucha__malyibereznyiubla__slovakia__driving,0.0,Bucha,Malyi Bereznyi - Ubl'a,Slovakia,driving
+bucha__mohylivpodilskyiotach__moldova__driving,0.0,Bucha,Mohyliv-Podilskyi - Otach,Moldova,driving
+bucha__mohylivpodilskyiotach__moldova__transit,0.0,Bucha,Mohyliv-Podilskyi - Otach,Moldova,transit
+bucha__porubnesiret__romania__driving,0.0,Bucha,Porubne - Siret,Romania,driving
+bucha__senkivkanoviyurkovychi__russianfederation__driving,0.0,Bucha,Senkivka - Novi Yurkovychi,Russian Federation,driving
+bucha__senkivkaveselivka__belarus__transit,0.0,Bucha,Senkivka - Veselivka,Belarus,transit
+bucha__uzhhorodvyshnieniemetske__slovakia__transit,0.0,Bucha,Uzhhorod - Vyshnie-Niemetske,Slovakia,transit
+bucha__vilchaoleksandrivka__belarus__driving,0.0,Bucha,Vilcha - Oleksandrivka,Belarus,driving
+bucha__yahodyndorohusk__poland__driving,0.0,Bucha,Yahodyn - Dorohusk,Poland,driving
+chernihiv__bachivsktroiebortne__russianfederation__transit,0.0,Chernihiv,Bachivsk - Troiebortne,Russian Federation,transit
+chernihiv__choptysazakhon__hungary__driving,0.0,Chernihiv,Chop (Tysa) - Zakhon,Hungary,driving
+chernihiv__choptysazakhon__hungary__transit,0.0,Chernihiv,Chop (Tysa) - Zakhon,Hungary,transit
+chernihiv__malyibereznyiubla__slovakia__driving,0.0,Chernihiv,Malyi Bereznyi - Ubl'a,Slovakia,driving
+chernihiv__mohylivpodilskyiotach__moldova__driving,0.0,Chernihiv,Mohyliv-Podilskyi - Otach,Moldova,driving
+chernihiv__mohylivpodilskyiotach__moldova__transit,0.0,Chernihiv,Mohyliv-Podilskyi - Otach,Moldova,transit
+chernihiv__porubnesiret__romania__driving,0.0,Chernihiv,Porubne - Siret,Romania,driving
+chernihiv__senkivkanoviyurkovychi__russianfederation__driving,0.0,Chernihiv,Senkivka - Novi Yurkovychi,Russian Federation,driving
+chernihiv__slavutychkomaryn__belarus__driving,0.0,Chernihiv,Slavutych - Komaryn,Belarus,driving
+chernihiv__solotvynosihetumarmatsiiei__romania__transit,0.0,Chernihiv,Solotvyno-Sihetu Marmatsiiei,Romania,transit
+chernihiv__uzhhorodvyshnieniemetske__slovakia__transit,60687.0,Chernihiv,Uzhhorod - Vyshnie-Niemetske,Slovakia,transit
+chernihiv__yahodyndorohusk__poland__driving,0.0,Chernihiv,Yahodyn - Dorohusk,Poland,driving
+chernihiv__yahodyndorohusk__poland__transit,0.0,Chernihiv,Yahodyn - Dorohusk,Poland,transit
+desna__choptysazakhon__hungary__driving,0.0,Desna,Chop (Tysa) - Zakhon,Hungary,driving
+desna__malyibereznyiubla__slovakia__driving,0.0,Desna,Malyi Bereznyi - Ubl'a,Slovakia,driving
+desna__mohylivpodilskyiotach__moldova__driving,0.0,Desna,Mohyliv-Podilskyi - Otach,Moldova,driving
+desna__porubnesiret__romania__driving,0.0,Desna,Porubne - Siret,Romania,driving
+desna__senkivkanoviyurkovychi__russianfederation__driving,0.0,Desna,Senkivka - Novi Yurkovychi,Russian Federation,driving
+desna__slavutychkomaryn__belarus__driving,24398.0,Desna,Slavutych - Komaryn,Belarus,driving
+desna__yahodyndorohusk__poland__driving,0.0,Desna,Yahodyn - Dorohusk,Poland,driving
+donetsk__choptysazakhon__hungary__driving,0.0,Donetsk,Chop (Tysa) - Zakhon,Hungary,driving
+donetsk__malyibereznyiubla__slovakia__driving,0.0,Donetsk,Malyi Bereznyi - Ubl'a,Slovakia,driving
+donetsk__marynivkakuibyshevo__russianfederation__driving,395897.23,Donetsk,Marynivka - Kuibyshevo,Russian Federation,driving
+donetsk__platonovehoianulnou__moldova__driving,4958.77,Donetsk,Platonove - Hoianul Nou,Moldova,driving
+donetsk__porubnesiret__romania__driving,0.0,Donetsk,Porubne - Siret,Romania,driving
+donetsk__vilchaoleksandrivka__belarus__driving,0.0,Donetsk,Vilcha - Oleksandrivka,Belarus,driving
+donetsk__yahodyndorohusk__poland__driving,0.0,Donetsk,Yahodyn - Dorohusk,Poland,driving
+hostomel__bachivsktroiebortne__russianfederation__transit,0.0,Hostomel,Bachivsk - Troiebortne,Russian Federation,transit
+hostomel__choptysazakhon__hungary__driving,0.0,Hostomel,Chop (Tysa) - Zakhon,Hungary,driving
+hostomel__choptysazakhon__hungary__transit,0.0,Hostomel,Chop (Tysa) - Zakhon,Hungary,transit
+hostomel__krakivetskorchova__poland__transit,0.0,Hostomel,Krakivets - Korchova,Poland,transit
+hostomel__malyibereznyiubla__slovakia__driving,0.0,Hostomel,Malyi Bereznyi - Ubl'a,Slovakia,driving
+hostomel__mohylivpodilskyiotach__moldova__driving,0.0,Hostomel,Mohyliv-Podilskyi - Otach,Moldova,driving
+hostomel__mohylivpodilskyiotach__moldova__transit,0.0,Hostomel,Mohyliv-Podilskyi - Otach,Moldova,transit
+hostomel__porubnesiret__romania__driving,0.0,Hostomel,Porubne - Siret,Romania,driving
+hostomel__senkivkanoviyurkovychi__russianfederation__driving,0.0,Hostomel,Senkivka - Novi Yurkovychi,Russian Federation,driving
+hostomel__senkivkaveselivka__belarus__transit,0.0,Hostomel,Senkivka - Veselivka,Belarus,transit
+hostomel__solotvynosihetumarmatsiiei__romania__transit,0.0,Hostomel,Solotvyno-Sihetu Marmatsiiei,Romania,transit
+hostomel__uzhhorodvyshnieniemetske__slovakia__transit,36926.0,Hostomel,Uzhhorod - Vyshnie-Niemetske,Slovakia,transit
+hostomel__vilchaoleksandrivka__belarus__driving,0.0,Hostomel,Vilcha - Oleksandrivka,Belarus,driving
+hostomel__yahodyndorohusk__poland__driving,0.0,Hostomel,Yahodyn - Dorohusk,Poland,driving
+irpin__choptysazakhon__hungary__driving,0.0,Irpin,Chop (Tysa) - Zakhon,Hungary,driving
+irpin__malyibereznyiubla__slovakia__driving,0.0,Irpin,Malyi Bereznyi - Ubl'a,Slovakia,driving
+irpin__mohylivpodilskyiotach__moldova__driving,0.0,Irpin,Mohyliv-Podilskyi - Otach,Moldova,driving
+irpin__porubnesiret__romania__driving,0.0,Irpin,Porubne - Siret,Romania,driving
+irpin__senkivkanoviyurkovychi__russianfederation__driving,0.0,Irpin,Senkivka - Novi Yurkovychi,Russian Federation,driving
+irpin__vilchaoleksandrivka__belarus__driving,0.0,Irpin,Vilcha - Oleksandrivka,Belarus,driving
+irpin__yahodyndorohusk__poland__driving,84938.0,Irpin,Yahodyn - Dorohusk,Poland,driving
+izium__choptysazakhon__hungary__driving,0.0,Izium,Chop (Tysa) - Zakhon,Hungary,driving
+izium__hoptivkanehotievka__russianfederation__driving,0.0,Izium,Hoptivka - Nehotievka,Russian Federation,driving
+izium__malyibereznyiubla__slovakia__driving,0.0,Izium,Malyi Bereznyi - Ubl'a,Slovakia,driving
+izium__platonovehoianulnou__moldova__driving,0.0,Izium,Platonove - Hoianul Nou,Moldova,driving
+izium__porubnesiret__romania__driving,19556.0,Izium,Porubne - Siret,Romania,driving
+izium__vilchaoleksandrivka__belarus__driving,0.0,Izium,Vilcha - Oleksandrivka,Belarus,driving
+izium__yahodyndorohusk__poland__driving,0.0,Izium,Yahodyn - Dorohusk,Poland,driving
+kharkiv__choptysazakhon__hungary__driving,0.0,Kharkiv,Chop (Tysa) - Zakhon,Hungary,driving
+kharkiv__choptysazakhon__hungary__transit,291308.0,Kharkiv,Chop (Tysa) - Zakhon,Hungary,transit
+kharkiv__hoptivkanehotievka__russianfederation__driving,0.0,Kharkiv,Hoptivka - Nehotievka,Russian Federation,driving
+kharkiv__hoptivkanehotievka__russianfederation__transit,0.0,Kharkiv,Hoptivka - Nehotievka,Russian Federation,transit
+kharkiv__maiakyudobnepalanka__moldova__transit,0.0,Kharkiv,Maiaky - Udobne-Palanka,Moldova,transit
+kharkiv__malyibereznyiubla__slovakia__driving,0.0,Kharkiv,Malyi Bereznyi - Ubl'a,Slovakia,driving
+kharkiv__platonovehoianulnou__moldova__driving,0.0,Kharkiv,Platonove - Hoianul Nou,Moldova,driving
+kharkiv__porubnesiret__romania__driving,0.0,Kharkiv,Porubne - Siret,Romania,driving
+kharkiv__senkivkaveselivka__belarus__transit,0.0,Kharkiv,Senkivka - Veselivka,Belarus,transit
+kharkiv__smilnytsiakrostsenko__poland__transit,0.0,Kharkiv,Smilnytsia - Krostsenko,Poland,transit
+kharkiv__solotvynosihetumarmatsiiei__romania__transit,0.0,Kharkiv,Solotvyno-Sihetu Marmatsiiei,Romania,transit
+kharkiv__uzhhorodvyshnieniemetske__slovakia__transit,0.0,Kharkiv,Uzhhorod - Vyshnie-Niemetske,Slovakia,transit
+kharkiv__vilchaoleksandrivka__belarus__driving,0.0,Kharkiv,Vilcha - Oleksandrivka,Belarus,driving
+kharkiv__yahodyndorohusk__poland__driving,0.0,Kharkiv,Yahodyn - Dorohusk,Poland,driving
+kherson__bachivsktroiebortne__russianfederation__transit,0.0,Kherson,Bachivsk - Troiebortne,Russian Federation,transit
+kherson__choptysazakhon__hungary__driving,0.0,Kherson,Chop (Tysa) - Zakhon,Hungary,driving
+kherson__choptysazakhon__hungary__transit,0.0,Kherson,Chop (Tysa) - Zakhon,Hungary,transit
+kherson__maiakyudobnepalanka__moldova__transit,0.0,Kherson,Maiaky - Udobne-Palanka,Moldova,transit
+kherson__malyibereznyiubla__slovakia__driving,0.0,Kherson,Malyi Bereznyi - Ubl'a,Slovakia,driving
+kherson__novoazovskveselovoznesenka__russianfederation__driving,0.0,Kherson,Novoazovsk - Veselo-Voznesenka,Russian Federation,driving
+kherson__platonovehoianulnou__moldova__driving,0.0,Kherson,Platonove - Hoianul Nou,Moldova,driving
+kherson__porubnesiret__romania__driving,0.0,Kherson,Porubne - Siret,Romania,driving
+kherson__ravaruskakhrebenne__poland__transit,0.0,Kherson,Rava-Ruska - Khrebenne,Poland,transit
+kherson__solotvynosihetumarmatsiiei__romania__transit,0.0,Kherson,Solotvyno-Sihetu Marmatsiiei,Romania,transit
+kherson__uzhhorodvyshnieniemetske__slovakia__transit,100664.0,Kherson,Uzhhorod - Vyshnie-Niemetske,Slovakia,transit
+kherson__vilchaoleksandrivka__belarus__driving,0.0,Kherson,Vilcha - Oleksandrivka,Belarus,driving
+kherson__yahodyndorohusk__poland__driving,0.0,Kherson,Yahodyn - Dorohusk,Poland,driving
+kobleve__choptysazakhon__hungary__driving,0.0,Kobleve,Chop (Tysa) - Zakhon,Hungary,driving
+kobleve__kuchurhanpervomaisk__moldova__driving,0.0,Kobleve,Kuchurhan - Pervomaisk,Moldova,driving
+kobleve__malyibereznyiubla__slovakia__driving,0.0,Kobleve,Malyi Bereznyi - Ubl'a,Slovakia,driving
+kobleve__orlivkaisaceea__romania__driving,45470.0,Kobleve,Orlivka - Isaceea,Romania,driving
+kobleve__senkivkanoviyurkovychi__russianfederation__driving,0.0,Kobleve,Senkivka - Novi Yurkovychi,Russian Federation,driving
+kobleve__ustyluhzosin__poland__driving,0.0,Kobleve,Ustyluh - Zosin,Poland,driving
+kobleve__vilchaoleksandrivka__belarus__driving,0.0,Kobleve,Vilcha - Oleksandrivka,Belarus,driving
+kramatorsk__choptysazakhon__hungary__driving,0.0,Kramatorsk,Chop (Tysa) - Zakhon,Hungary,driving
+kramatorsk__hoptivkanehotievka__russianfederation__driving,0.0,Kramatorsk,Hoptivka - Nehotievka,Russian Federation,driving
+kramatorsk__malyibereznyiubla__slovakia__driving,123839.43,Kramatorsk,Malyi Bereznyi - Ubl'a,Slovakia,driving
+kramatorsk__platonovehoianulnou__moldova__driving,0.0,Kramatorsk,Platonove - Hoianul Nou,Moldova,driving
+kramatorsk__porubnesiret__romania__driving,0.0,Kramatorsk,Porubne - Siret,Romania,driving
+kramatorsk__vilchaoleksandrivka__belarus__driving,0.0,Kramatorsk,Vilcha - Oleksandrivka,Belarus,driving
+kramatorsk__yahodyndorohusk__poland__driving,38803.57,Kramatorsk,Yahodyn - Dorohusk,Poland,driving
+kreminna__choptysazakhon__hungary__driving,0.0,Kreminna,Chop (Tysa) - Zakhon,Hungary,driving
+kreminna__malyibereznyiubla__slovakia__driving,93596.84,Kreminna,Malyi Bereznyi - Ubl'a,Slovakia,driving
+kreminna__piskylohachivka__russianfederation__driving,0.0,Kreminna,Pisky - Lohachivka,Russian Federation,driving
+kreminna__platonovehoianulnou__moldova__driving,0.0,Kreminna,Platonove - Hoianul Nou,Moldova,driving
+kreminna__porubnesiret__romania__driving,69046.16,Kreminna,Porubne - Siret,Romania,driving
+kreminna__vilchaoleksandrivka__belarus__driving,0.0,Kreminna,Vilcha - Oleksandrivka,Belarus,driving
+kreminna__yahodyndorohusk__poland__driving,0.0,Kreminna,Yahodyn - Dorohusk,Poland,driving
+kruty__choptysazakhon__hungary__driving,0.0,Kruty,Chop (Tysa) - Zakhon,Hungary,driving
+kruty__katerynivkakrupets__russianfederation__driving,0.0,Kruty,Katerynivka - Krupets,Russian Federation,driving
+kruty__malyibereznyiubla__slovakia__driving,0.0,Kruty,Malyi Bereznyi - Ubl'a,Slovakia,driving
+kruty__platonovehoianulnou__moldova__driving,0.0,Kruty,Platonove - Hoianul Nou,Moldova,driving
+kruty__porubnesiret__romania__driving,0.0,Kruty,Porubne - Siret,Romania,driving
+kruty__slavutychkomaryn__belarus__driving,34813.0,Kruty,Slavutych - Komaryn,Belarus,driving
+kruty__yahodyndorohusk__poland__driving,0.0,Kruty,Yahodyn - Dorohusk,Poland,driving
+kurakhove__choptysazakhon__hungary__driving,0.0,Kurakhove,Chop (Tysa) - Zakhon,Hungary,driving
+kurakhove__malyibereznyiubla__slovakia__driving,0.0,Kurakhove,Malyi Bereznyi - Ubl'a,Slovakia,driving
+kurakhove__novoazovskveselovoznesenka__russianfederation__driving,0.0,Kurakhove,Novoazovsk - Veselo-Voznesenka,Russian Federation,driving
+kurakhove__platonovehoianulnou__moldova__driving,48146.0,Kurakhove,Platonove - Hoianul Nou,Moldova,driving
+kurakhove__porubnesiret__romania__driving,0.0,Kurakhove,Porubne - Siret,Romania,driving
+kurakhove__vilchaoleksandrivka__belarus__driving,0.0,Kurakhove,Vilcha - Oleksandrivka,Belarus,driving
+kurakhove__yahodyndorohusk__poland__driving,0.0,Kurakhove,Yahodyn - Dorohusk,Poland,driving
+kyselivka__choptysazakhon__hungary__driving,0.0,Kyselivka,Chop (Tysa) - Zakhon,Hungary,driving
+kyselivka__malyibereznyiubla__slovakia__driving,0.0,Kyselivka,Malyi Bereznyi - Ubl'a,Slovakia,driving
+kyselivka__novoazovskveselovoznesenka__russianfederation__driving,0.0,Kyselivka,Novoazovsk - Veselo-Voznesenka,Russian Federation,driving
+kyselivka__platonovehoianulnou__moldova__driving,121874.0,Kyselivka,Platonove - Hoianul Nou,Moldova,driving
+kyselivka__porubnesiret__romania__driving,0.0,Kyselivka,Porubne - Siret,Romania,driving
+kyselivka__vilchaoleksandrivka__belarus__driving,0.0,Kyselivka,Vilcha - Oleksandrivka,Belarus,driving
+kyselivka__yahodyndorohusk__poland__driving,0.0,Kyselivka,Yahodyn - Dorohusk,Poland,driving
+luhansk__choptysazakhon__hungary__driving,0.0,Luhansk,Chop (Tysa) - Zakhon,Hungary,driving
+luhansk__choptysazakhon__hungary__transit,0.0,Luhansk,Chop (Tysa) - Zakhon,Hungary,transit
+luhansk__dovzhanskynovoshakhtinsk__russianfederation__transit,0.0,Luhansk,Dovzhansky - Novoshakhtinsk,Russian Federation,transit
+luhansk__izvarynedonetsk__russianfederation__driving,0.0,Luhansk,Izvaryne - Donetsk,Russian Federation,driving
+luhansk__maiakyudobnepalanka__moldova__transit,0.0,Luhansk,Maiaky - Udobne-Palanka,Moldova,transit
+luhansk__malyibereznyiubla__slovakia__driving,0.0,Luhansk,Malyi Bereznyi - Ubl'a,Slovakia,driving
+luhansk__platonovehoianulnou__moldova__driving,0.0,Luhansk,Platonove - Hoianul Nou,Moldova,driving
+luhansk__porubnesiret__romania__driving,0.0,Luhansk,Porubne - Siret,Romania,driving
+luhansk__senkivkaveselivka__belarus__transit,0.0,Luhansk,Senkivka - Veselivka,Belarus,transit
+luhansk__shehynimedyka__poland__transit,0.0,Luhansk,Shehyni - Medyka,Poland,transit
+luhansk__solotvynosihetumarmatsiiei__romania__transit,0.0,Luhansk,Solotvyno-Sihetu Marmatsiiei,Romania,transit
+luhansk__uzhhorodvyshnieniemetske__slovakia__transit,127869.0,Luhansk,Uzhhorod - Vyshnie-Niemetske,Slovakia,transit
+luhansk__vilchaoleksandrivka__belarus__driving,0.0,Luhansk,Vilcha - Oleksandrivka,Belarus,driving
+luhansk__yahodyndorohusk__poland__driving,0.0,Luhansk,Yahodyn - Dorohusk,Poland,driving
+lukyanivka__choptysazakhon__hungary__driving,0.0,Lukyanivka,Chop (Tysa) - Zakhon,Hungary,driving
+lukyanivka__katerynivkakrupets__russianfederation__driving,0.0,Lukyanivka,Katerynivka - Krupets,Russian Federation,driving
+lukyanivka__malyibereznyiubla__slovakia__driving,0.0,Lukyanivka,Malyi Bereznyi - Ubl'a,Slovakia,driving
+lukyanivka__platonovehoianulnou__moldova__driving,0.0,Lukyanivka,Platonove - Hoianul Nou,Moldova,driving
+lukyanivka__porubnesiret__romania__driving,0.0,Lukyanivka,Porubne - Siret,Romania,driving
+lukyanivka__slavutychkomaryn__belarus__driving,145524.51,Lukyanivka,Slavutych - Komaryn,Belarus,driving
+lukyanivka__yahodyndorohusk__poland__driving,391097.49,Lukyanivka,Yahodyn - Dorohusk,Poland,driving
+lysychansk__choptysazakhon__hungary__driving,0.0,Lysychansk,Chop (Tysa) - Zakhon,Hungary,driving
+lysychansk__krasnatalivkavoloshino__russianfederation__driving,0.0,Lysychansk,Krasna Talivka - Voloshino,Russian Federation,driving
+lysychansk__malyibereznyiubla__slovakia__driving,162643.0,Lysychansk,Malyi Bereznyi - Ubl'a,Slovakia,driving
+lysychansk__platonovehoianulnou__moldova__driving,0.0,Lysychansk,Platonove - Hoianul Nou,Moldova,driving
+lysychansk__porubnesiret__romania__driving,0.0,Lysychansk,Porubne - Siret,Romania,driving
+lysychansk__vilchaoleksandrivka__belarus__driving,0.0,Lysychansk,Vilcha - Oleksandrivka,Belarus,driving
+lysychansk__yahodyndorohusk__poland__driving,0.0,Lysychansk,Yahodyn - Dorohusk,Poland,driving
+makariv__choptysazakhon__hungary__driving,0.0,Makariv,Chop (Tysa) - Zakhon,Hungary,driving
+makariv__malyibereznyiubla__slovakia__driving,0.0,Makariv,Malyi Bereznyi - Ubl'a,Slovakia,driving
+makariv__mohylivpodilskyiotach__moldova__driving,0.0,Makariv,Mohyliv-Podilskyi - Otach,Moldova,driving
+makariv__porubnesiret__romania__driving,0.0,Makariv,Porubne - Siret,Romania,driving
+makariv__senkivkanoviyurkovychi__russianfederation__driving,0.0,Makariv,Senkivka - Novi Yurkovychi,Russian Federation,driving
+makariv__vilchaoleksandrivka__belarus__driving,0.0,Makariv,Vilcha - Oleksandrivka,Belarus,driving
+makariv__yahodyndorohusk__poland__driving,84938.0,Makariv,Yahodyn - Dorohusk,Poland,driving
+malarohan__choptysazakhon__hungary__driving,0.0,Mala Rohan,Chop (Tysa) - Zakhon,Hungary,driving
+malarohan__choptysazakhon__hungary__transit,45659.87,Mala Rohan,Chop (Tysa) - Zakhon,Hungary,transit
+malarohan__hoptivkanehotievka__russianfederation__driving,0.0,Mala Rohan,Hoptivka - Nehotievka,Russian Federation,driving
+malarohan__maiakyudobnepalanka__moldova__transit,0.0,Mala Rohan,Maiaky - Udobne-Palanka,Moldova,transit
+malarohan__malyibereznyiubla__slovakia__driving,0.0,Mala Rohan,Malyi Bereznyi - Ubl'a,Slovakia,driving
+malarohan__platonovehoianulnou__moldova__driving,0.0,Mala Rohan,Platonove - Hoianul Nou,Moldova,driving
+malarohan__pletenivkashebekino__russianfederation__transit,0.0,Mala Rohan,Pletenivka - Shebekino,Russian Federation,transit
+malarohan__porubnesiret__romania__driving,0.0,Mala Rohan,Porubne - Siret,Romania,driving
+malarohan__senkivkaveselivka__belarus__transit,0.0,Mala Rohan,Senkivka - Veselivka,Belarus,transit
+malarohan__smilnytsiakrostsenko__poland__transit,0.0,Mala Rohan,Smilnytsia - Krostsenko,Poland,transit
+malarohan__solotvynosihetumarmatsiiei__romania__transit,0.0,Mala Rohan,Solotvyno-Sihetu Marmatsiiei,Romania,transit
+malarohan__uzhhorodvyshnieniemetske__slovakia__transit,245648.13,Mala Rohan,Uzhhorod - Vyshnie-Niemetske,Slovakia,transit
+malarohan__vilchaoleksandrivka__belarus__driving,0.0,Mala Rohan,Vilcha - Oleksandrivka,Belarus,driving
+malarohan__yahodyndorohusk__poland__driving,0.0,Mala Rohan,Yahodyn - Dorohusk,Poland,driving
+mariupol__choptysazakhon__hungary__driving,0.0,Mariupol,Chop (Tysa) - Zakhon,Hungary,driving
+mariupol__malyibereznyiubla__slovakia__driving,0.0,Mariupol,Malyi Bereznyi - Ubl'a,Slovakia,driving
+mariupol__novoazovskveselovoznesenka__russianfederation__driving,81522.0,Mariupol,Novoazovsk - Veselo-Voznesenka,Russian Federation,driving
+mariupol__platonovehoianulnou__moldova__driving,0.0,Mariupol,Platonove - Hoianul Nou,Moldova,driving
+mariupol__porubnesiret__romania__driving,0.0,Mariupol,Porubne - Siret,Romania,driving
+mariupol__vilchaoleksandrivka__belarus__driving,0.0,Mariupol,Vilcha - Oleksandrivka,Belarus,driving
+mariupol__yahodyndorohusk__poland__driving,0.0,Mariupol,Yahodyn - Dorohusk,Poland,driving
+melitopol__choptysazakhon__hungary__driving,0.0,Melitopol,Chop (Tysa) - Zakhon,Hungary,driving
+melitopol__malyibereznyiubla__slovakia__driving,0.0,Melitopol,Malyi Bereznyi - Ubl'a,Slovakia,driving
+melitopol__novoazovskveselovoznesenka__russianfederation__driving,0.0,Melitopol,Novoazovsk - Veselo-Voznesenka,Russian Federation,driving
+melitopol__platonovehoianulnou__moldova__driving,59504.0,Melitopol,Platonove - Hoianul Nou,Moldova,driving
+melitopol__porubnesiret__romania__driving,0.0,Melitopol,Porubne - Siret,Romania,driving
+melitopol__vilchaoleksandrivka__belarus__driving,0.0,Melitopol,Vilcha - Oleksandrivka,Belarus,driving
+melitopol__yahodyndorohusk__poland__driving,0.0,Melitopol,Yahodyn - Dorohusk,Poland,driving
+merefa__choptysazakhon__hungary__driving,0.0,Merefa,Chop (Tysa) - Zakhon,Hungary,driving
+merefa__hoptivkanehotievka__russianfederation__driving,0.0,Merefa,Hoptivka - Nehotievka,Russian Federation,driving
+merefa__malyibereznyiubla__slovakia__driving,0.0,Merefa,Malyi Bereznyi - Ubl'a,Slovakia,driving
+merefa__platonovehoianulnou__moldova__driving,0.0,Merefa,Platonove - Hoianul Nou,Moldova,driving
+merefa__porubnesiret__romania__driving,291308.0,Merefa,Porubne - Siret,Romania,driving
+merefa__vilchaoleksandrivka__belarus__driving,0.0,Merefa,Vilcha - Oleksandrivka,Belarus,driving
+merefa__yahodyndorohusk__poland__driving,0.0,Merefa,Yahodyn - Dorohusk,Poland,driving
+metolkine__choptysazakhon__hungary__driving,0.0,Metolkine,Chop (Tysa) - Zakhon,Hungary,driving
+metolkine__krasnatalivkavoloshino__russianfederation__driving,127869.0,Metolkine,Krasna Talivka - Voloshino,Russian Federation,driving
+metolkine__malyibereznyiubla__slovakia__driving,0.0,Metolkine,Malyi Bereznyi - Ubl'a,Slovakia,driving
+metolkine__platonovehoianulnou__moldova__driving,0.0,Metolkine,Platonove - Hoianul Nou,Moldova,driving
+metolkine__porubnesiret__romania__driving,0.0,Metolkine,Porubne - Siret,Romania,driving
+metolkine__vilchaoleksandrivka__belarus__driving,0.0,Metolkine,Vilcha - Oleksandrivka,Belarus,driving
+metolkine__yahodyndorohusk__poland__driving,0.0,Metolkine,Yahodyn - Dorohusk,Poland,driving
+motyzhyn__choptysazakhon__hungary__driving,0.0,Motyzhyn,Chop (Tysa) - Zakhon,Hungary,driving
+motyzhyn__malyibereznyiubla__slovakia__driving,0.0,Motyzhyn,Malyi Bereznyi - Ubl'a,Slovakia,driving
+motyzhyn__mohylivpodilskyiotach__moldova__driving,0.0,Motyzhyn,Mohyliv-Podilskyi - Otach,Moldova,driving
+motyzhyn__porubnesiret__romania__driving,84938.0,Motyzhyn,Porubne - Siret,Romania,driving
+motyzhyn__senkivkanoviyurkovychi__russianfederation__driving,0.0,Motyzhyn,Senkivka - Novi Yurkovychi,Russian Federation,driving
+motyzhyn__vilchaoleksandrivka__belarus__driving,0.0,Motyzhyn,Vilcha - Oleksandrivka,Belarus,driving
+motyzhyn__yahodyndorohusk__poland__driving,0.0,Motyzhyn,Yahodyn - Dorohusk,Poland,driving
+mykolaiv__bachivsktroiebortne__russianfederation__transit,0.0,Mykolaiv,Bachivsk - Troiebortne,Russian Federation,transit
+mykolaiv__choptysazakhon__hungary__driving,0.0,Mykolaiv,Chop (Tysa) - Zakhon,Hungary,driving
+mykolaiv__choptysazakhon__hungary__transit,0.0,Mykolaiv,Chop (Tysa) - Zakhon,Hungary,transit
+mykolaiv__kuchurhanpervomaisk__moldova__driving,0.0,Mykolaiv,Kuchurhan - Pervomaisk,Moldova,driving
+mykolaiv__maiakyudobnepalanka__moldova__transit,0.0,Mykolaiv,Maiaky - Udobne-Palanka,Moldova,transit
+mykolaiv__malyibereznyiubla__slovakia__driving,0.0,Mykolaiv,Malyi Bereznyi - Ubl'a,Slovakia,driving
+mykolaiv__orlivkaisaceea__romania__driving,121874.0,Mykolaiv,Orlivka - Isaceea,Romania,driving
+mykolaiv__ravaruskakhrebenne__poland__transit,0.0,Mykolaiv,Rava-Ruska - Khrebenne,Poland,transit
+mykolaiv__senkivkanoviyurkovychi__russianfederation__driving,0.0,Mykolaiv,Senkivka - Novi Yurkovychi,Russian Federation,driving
+mykolaiv__senkivkaveselivka__belarus__transit,0.0,Mykolaiv,Senkivka - Veselivka,Belarus,transit
+mykolaiv__solotvynosihetumarmatsiiei__romania__transit,0.0,Mykolaiv,Solotvyno-Sihetu Marmatsiiei,Romania,transit
+mykolaiv__ustyluhzosin__poland__driving,0.0,Mykolaiv,Ustyluh - Zosin,Poland,driving
+mykolaiv__uzhhorodvyshnieniemetske__slovakia__transit,0.0,Mykolaiv,Uzhhorod - Vyshnie-Niemetske,Slovakia,transit
+mykolaiv__vilchaoleksandrivka__belarus__driving,0.0,Mykolaiv,Vilcha - Oleksandrivka,Belarus,driving
+novobakhmutivka__choptysazakhon__hungary__driving,0.0,Novobakhmutivka,Chop (Tysa) - Zakhon,Hungary,driving
+novobakhmutivka__malyibereznyiubla__slovakia__driving,0.0,Novobakhmutivka,Malyi Bereznyi - Ubl'a,Slovakia,driving
+novobakhmutivka__marynivkakuibyshevo__russianfederation__driving,0.0,Novobakhmutivka,Marynivka - Kuibyshevo,Russian Federation,driving
+novobakhmutivka__platonovehoianulnou__moldova__driving,400856.0,Novobakhmutivka,Platonove - Hoianul Nou,Moldova,driving
+novobakhmutivka__porubnesiret__romania__driving,0.0,Novobakhmutivka,Porubne - Siret,Romania,driving
+novobakhmutivka__vilchaoleksandrivka__belarus__driving,0.0,Novobakhmutivka,Vilcha - Oleksandrivka,Belarus,driving
+novobakhmutivka__yahodyndorohusk__poland__driving,0.0,Novobakhmutivka,Yahodyn - Dorohusk,Poland,driving
+okhtyrka__choptysazakhon__hungary__driving,0.0,Okhtyrka,Chop (Tysa) - Zakhon,Hungary,driving
+okhtyrka__hoptivkanehotievka__russianfederation__transit,0.0,Okhtyrka,Hoptivka - Nehotievka,Russian Federation,transit
+okhtyrka__luzhankaberehshuran__hungary__transit,0.0,Okhtyrka,Luzhanka - Berehshuran,Hungary,transit
+okhtyrka__malyibereznyiubla__slovakia__driving,0.0,Okhtyrka,Malyi Bereznyi - Ubl'a,Slovakia,driving
+okhtyrka__mohylivpodilskyiotach__moldova__transit,0.0,Okhtyrka,Mohyliv-Podilskyi - Otach,Moldova,transit
+okhtyrka__platonovehoianulnou__moldova__driving,0.0,Okhtyrka,Platonove - Hoianul Nou,Moldova,driving
+okhtyrka__porubnesiret__romania__driving,0.0,Okhtyrka,Porubne - Siret,Romania,driving
+okhtyrka__senkivkaveselivka__belarus__transit,0.0,Okhtyrka,Senkivka - Veselivka,Belarus,transit
+okhtyrka__slavutychkomaryn__belarus__driving,0.0,Okhtyrka,Slavutych - Komaryn,Belarus,driving
+okhtyrka__smilnytsiakrostsenko__poland__transit,0.0,Okhtyrka,Smilnytsia - Krostsenko,Poland,transit
+okhtyrka__solotvynosihetumarmatsiiei__romania__transit,0.0,Okhtyrka,Solotvyno-Sihetu Marmatsiiei,Romania,transit
+okhtyrka__uzhhorodvyshnieniemetske__slovakia__transit,71480.0,Okhtyrka,Uzhhorod - Vyshnie-Niemetske,Slovakia,transit
+okhtyrka__velykapysarivkahraivoron__russianfederation__driving,0.0,Okhtyrka,Velyka Pysarivka - Hraivoron,Russian Federation,driving
+okhtyrka__yahodyndorohusk__poland__driving,0.0,Okhtyrka,Yahodyn - Dorohusk,Poland,driving
+oleksandrivka__choptysazakhon__hungary__driving,0.0,Oleksandrivka,Chop (Tysa) - Zakhon,Hungary,driving
+oleksandrivka__malyibereznyiubla__slovakia__driving,0.0,Oleksandrivka,Malyi Bereznyi - Ubl'a,Slovakia,driving
+oleksandrivka__novoazovskveselovoznesenka__russianfederation__driving,0.0,Oleksandrivka,Novoazovsk - Veselo-Voznesenka,Russian Federation,driving
+oleksandrivka__platonovehoianulnou__moldova__driving,59366.27,Oleksandrivka,Platonove - Hoianul Nou,Moldova,driving
+oleksandrivka__porubnesiret__romania__driving,62507.73,Oleksandrivka,Porubne - Siret,Romania,driving
+oleksandrivka__vilchaoleksandrivka__belarus__driving,0.0,Oleksandrivka,Vilcha - Oleksandrivka,Belarus,driving
+oleksandrivka__yahodyndorohusk__poland__driving,0.0,Oleksandrivka,Yahodyn - Dorohusk,Poland,driving
+oleshky__choptysazakhon__hungary__driving,0.0,Oleshky,Chop (Tysa) - Zakhon,Hungary,driving
+oleshky__malyibereznyiubla__slovakia__driving,0.0,Oleshky,Malyi Bereznyi - Ubl'a,Slovakia,driving
+oleshky__novoazovskveselovoznesenka__russianfederation__driving,0.0,Oleshky,Novoazovsk - Veselo-Voznesenka,Russian Federation,driving
+oleshky__platonovehoianulnou__moldova__driving,0.0,Oleshky,Platonove - Hoianul Nou,Moldova,driving
+oleshky__porubnesiret__romania__driving,100664.0,Oleshky,Porubne - Siret,Romania,driving
+oleshky__vilchaoleksandrivka__belarus__driving,0.0,Oleshky,Vilcha - Oleksandrivka,Belarus,driving
+oleshky__yahodyndorohusk__poland__driving,0.0,Oleshky,Yahodyn - Dorohusk,Poland,driving
+pervomaisk__choptysazakhon__hungary__driving,0.0,Pervomaisk,Chop (Tysa) - Zakhon,Hungary,driving
+pervomaisk__izvarynedonetsk__russianfederation__driving,162643.0,Pervomaisk,Izvaryne - Donetsk,Russian Federation,driving
+pervomaisk__malyibereznyiubla__slovakia__driving,0.0,Pervomaisk,Malyi Bereznyi - Ubl'a,Slovakia,driving
+pervomaisk__platonovehoianulnou__moldova__driving,0.0,Pervomaisk,Platonove - Hoianul Nou,Moldova,driving
+pervomaisk__porubnesiret__romania__driving,0.0,Pervomaisk,Porubne - Siret,Romania,driving
+pervomaisk__vilchaoleksandrivka__belarus__driving,0.0,Pervomaisk,Vilcha - Oleksandrivka,Belarus,driving
+pervomaisk__yahodyndorohusk__poland__driving,0.0,Pervomaisk,Yahodyn - Dorohusk,Poland,driving
+polohy__choptysazakhon__hungary__driving,0.0,Polohy,Chop (Tysa) - Zakhon,Hungary,driving
+polohy__malyibereznyiubla__slovakia__driving,0.0,Polohy,Malyi Bereznyi - Ubl'a,Slovakia,driving
+polohy__novoazovskveselovoznesenka__russianfederation__driving,0.0,Polohy,Novoazovsk - Veselo-Voznesenka,Russian Federation,driving
+polohy__platonovehoianulnou__moldova__driving,23573.0,Polohy,Platonove - Hoianul Nou,Moldova,driving
+polohy__porubnesiret__romania__driving,0.0,Polohy,Porubne - Siret,Romania,driving
+polohy__vilchaoleksandrivka__belarus__driving,0.0,Polohy,Vilcha - Oleksandrivka,Belarus,driving
+polohy__yahodyndorohusk__poland__driving,0.0,Polohy,Yahodyn - Dorohusk,Poland,driving
+popasna__choptysazakhon__hungary__driving,0.0,Popasna,Chop (Tysa) - Zakhon,Hungary,driving
+popasna__krasnatalivkavoloshino__russianfederation__driving,0.0,Popasna,Krasna Talivka - Voloshino,Russian Federation,driving
+popasna__malyibereznyiubla__slovakia__driving,162643.0,Popasna,Malyi Bereznyi - Ubl'a,Slovakia,driving
+popasna__platonovehoianulnou__moldova__driving,0.0,Popasna,Platonove - Hoianul Nou,Moldova,driving
+popasna__porubnesiret__romania__driving,0.0,Popasna,Porubne - Siret,Romania,driving
+popasna__vilchaoleksandrivka__belarus__driving,0.0,Popasna,Vilcha - Oleksandrivka,Belarus,driving
+popasna__yahodyndorohusk__poland__driving,0.0,Popasna,Yahodyn - Dorohusk,Poland,driving
+rubizhne__choptysazakhon__hungary__driving,0.0,Rubizhne,Chop (Tysa) - Zakhon,Hungary,driving
+rubizhne__krasnatalivkavoloshino__russianfederation__driving,0.0,Rubizhne,Krasna Talivka - Voloshino,Russian Federation,driving
+rubizhne__malyibereznyiubla__slovakia__driving,0.0,Rubizhne,Malyi Bereznyi - Ubl'a,Slovakia,driving
+rubizhne__platonovehoianulnou__moldova__driving,0.0,Rubizhne,Platonove - Hoianul Nou,Moldova,driving
+rubizhne__porubnesiret__romania__driving,162643.0,Rubizhne,Porubne - Siret,Romania,driving
+rubizhne__vilchaoleksandrivka__belarus__driving,0.0,Rubizhne,Vilcha - Oleksandrivka,Belarus,driving
+rubizhne__yahodyndorohusk__poland__driving,0.0,Rubizhne,Yahodyn - Dorohusk,Poland,driving
+schastia__choptysazakhon__hungary__driving,0.0,Schastia,Chop (Tysa) - Zakhon,Hungary,driving
+schastia__izvarynedonetsk__russianfederation__driving,127869.0,Schastia,Izvaryne - Donetsk,Russian Federation,driving
+schastia__malyibereznyiubla__slovakia__driving,0.0,Schastia,Malyi Bereznyi - Ubl'a,Slovakia,driving
+schastia__platonovehoianulnou__moldova__driving,0.0,Schastia,Platonove - Hoianul Nou,Moldova,driving
+schastia__porubnesiret__romania__driving,0.0,Schastia,Porubne - Siret,Romania,driving
+schastia__vilchaoleksandrivka__belarus__driving,0.0,Schastia,Vilcha - Oleksandrivka,Belarus,driving
+schastia__yahodyndorohusk__poland__driving,0.0,Schastia,Yahodyn - Dorohusk,Poland,driving
+severodonetsk__choptysazakhon__hungary__driving,0.0,Severodonetsk,Chop (Tysa) - Zakhon,Hungary,driving
+severodonetsk__choptysazakhon__hungary__transit,0.0,Severodonetsk,Chop (Tysa) - Zakhon,Hungary,transit
+severodonetsk__dovzhanskynovoshakhtinsk__russianfederation__transit,0.0,Severodonetsk,Dovzhansky - Novoshakhtinsk,Russian Federation,transit
+severodonetsk__krakivetskorchova__poland__transit,0.0,Severodonetsk,Krakivets - Korchova,Poland,transit
+severodonetsk__krasnatalivkavoloshino__russianfederation__driving,0.0,Severodonetsk,Krasna Talivka - Voloshino,Russian Federation,driving
+severodonetsk__maiakyudobnepalanka__moldova__transit,0.0,Severodonetsk,Maiaky - Udobne-Palanka,Moldova,transit
+severodonetsk__malyibereznyiubla__slovakia__driving,0.0,Severodonetsk,Malyi Bereznyi - Ubl'a,Slovakia,driving
+severodonetsk__platonovehoianulnou__moldova__driving,0.0,Severodonetsk,Platonove - Hoianul Nou,Moldova,driving
+severodonetsk__porubnesiret__romania__driving,0.0,Severodonetsk,Porubne - Siret,Romania,driving
+severodonetsk__senkivkaveselivka__belarus__transit,0.0,Severodonetsk,Senkivka - Veselivka,Belarus,transit
+severodonetsk__uzhhorodvyshnieniemetske__slovakia__transit,162643.0,Severodonetsk,Uzhhorod - Vyshnie-Niemetske,Slovakia,transit
+severodonetsk__vilchaoleksandrivka__belarus__driving,0.0,Severodonetsk,Vilcha - Oleksandrivka,Belarus,driving
+severodonetsk__yahodyndorohusk__poland__driving,0.0,Severodonetsk,Yahodyn - Dorohusk,Poland,driving
+sumy__choptysazakhon__hungary__driving,0.0,Sumy,Chop (Tysa) - Zakhon,Hungary,driving
+sumy__malyibereznyiubla__slovakia__driving,0.0,Sumy,Malyi Bereznyi - Ubl'a,Slovakia,driving
+sumy__mohylivpodilskyiotach__moldova__transit,0.0,Sumy,Mohyliv-Podilskyi - Otach,Moldova,transit
+sumy__platonovehoianulnou__moldova__driving,0.0,Sumy,Platonove - Hoianul Nou,Moldova,driving
+sumy__pokrovkakolotylіvka__russianfederation__driving,0.0,Sumy,Pokrovka - Kolotylіvka,Russian Federation,driving
+sumy__porubnesiret__romania__driving,0.0,Sumy,Porubne - Siret,Romania,driving
+sumy__senkivkanoviyurkovychi__russianfederation__transit,0.0,Sumy,Senkivka - Novi Yurkovychi,Russian Federation,transit
+sumy__senkivkaveselivka__belarus__transit,0.0,Sumy,Senkivka - Veselivka,Belarus,transit
+sumy__slavutychkomaryn__belarus__driving,0.0,Sumy,Slavutych - Komaryn,Belarus,driving
+sumy__solotvynosihetumarmatsiiei__romania__transit,0.0,Sumy,Solotvyno-Sihetu Marmatsiiei,Romania,transit
+sumy__ustyluhzosin__poland__transit,55088.0,Sumy,Ustyluh - Zosin,Poland,transit
+sumy__uzhhorodvyshnieniemetske__slovakia__transit,0.0,Sumy,Uzhhorod - Vyshnie-Niemetske,Slovakia,transit
+sumy__yahodyndorohusk__poland__driving,0.0,Sumy,Yahodyn - Dorohusk,Poland,driving
+velykaoleksandrivka__choptysazakhon__hungary__driving,0.0,Velyka Oleksandrivka,Chop (Tysa) - Zakhon,Hungary,driving
+velykaoleksandrivka__malyibereznyiubla__slovakia__driving,0.0,Velyka Oleksandrivka,Malyi Bereznyi - Ubl'a,Slovakia,driving
+velykaoleksandrivka__novoazovskveselovoznesenka__russianfederation__driving,0.0,Velyka Oleksandrivka,Novoazovsk - Veselo-Voznesenka,Russian Federation,driving
+velykaoleksandrivka__platonovehoianulnou__moldova__driving,100664.0,Velyka Oleksandrivka,Platonove - Hoianul Nou,Moldova,driving
+velykaoleksandrivka__porubnesiret__romania__driving,0.0,Velyka Oleksandrivka,Porubne - Siret,Romania,driving
+velykaoleksandrivka__vilchaoleksandrivka__belarus__driving,0.0,Velyka Oleksandrivka,Vilcha - Oleksandrivka,Belarus,driving
+velykaoleksandrivka__yahodyndorohusk__poland__driving,0.0,Velyka Oleksandrivka,Yahodyn - Dorohusk,Poland,driving
+virnopillia__choptysazakhon__hungary__driving,0.0,Virnopillia,Chop (Tysa) - Zakhon,Hungary,driving
+virnopillia__hoptivkanehotievka__russianfederation__driving,0.0,Virnopillia,Hoptivka - Nehotievka,Russian Federation,driving
+virnopillia__malyibereznyiubla__slovakia__driving,0.0,Virnopillia,Malyi Bereznyi - Ubl'a,Slovakia,driving
+virnopillia__platonovehoianulnou__moldova__driving,0.0,Virnopillia,Platonove - Hoianul Nou,Moldova,driving
+virnopillia__porubnesiret__romania__driving,19556.0,Virnopillia,Porubne - Siret,Romania,driving
+virnopillia__vilchaoleksandrivka__belarus__driving,0.0,Virnopillia,Vilcha - Oleksandrivka,Belarus,driving
+virnopillia__yahodyndorohusk__poland__driving,0.0,Virnopillia,Yahodyn - Dorohusk,Poland,driving
+volnovakha__choptysazakhon__hungary__driving,0.0,Volnovakha,Chop (Tysa) - Zakhon,Hungary,driving
+volnovakha__malyibereznyiubla__slovakia__driving,0.0,Volnovakha,Malyi Bereznyi - Ubl'a,Slovakia,driving
+volnovakha__novoazovskveselovoznesenka__russianfederation__driving,400856.0,Volnovakha,Novoazovsk - Veselo-Voznesenka,Russian Federation,driving
+volnovakha__platonovehoianulnou__moldova__driving,0.0,Volnovakha,Platonove - Hoianul Nou,Moldova,driving
+volnovakha__porubnesiret__romania__driving,0.0,Volnovakha,Porubne - Siret,Romania,driving
+volnovakha__vilchaoleksandrivka__belarus__driving,0.0,Volnovakha,Vilcha - Oleksandrivka,Belarus,driving
+volnovakha__yahodyndorohusk__poland__driving,0.0,Volnovakha,Yahodyn - Dorohusk,Poland,driving
+vovchansk__choptysazakhon__hungary__driving,0.0,Vovchansk,Chop (Tysa) - Zakhon,Hungary,driving
+vovchansk__malyibereznyiubla__slovakia__driving,0.0,Vovchansk,Malyi Bereznyi - Ubl'a,Slovakia,driving
+vovchansk__platonovehoianulnou__moldova__driving,0.0,Vovchansk,Platonove - Hoianul Nou,Moldova,driving
+vovchansk__pletenivkashebekino__russianfederation__driving,0.0,Vovchansk,Pletenivka - Shebekino,Russian Federation,driving
+vovchansk__porubnesiret__romania__driving,19962.0,Vovchansk,Porubne - Siret,Romania,driving
+vovchansk__vilchaoleksandrivka__belarus__driving,0.0,Vovchansk,Vilcha - Oleksandrivka,Belarus,driving
+vovchansk__yahodyndorohusk__poland__driving,0.0,Vovchansk,Yahodyn - Dorohusk,Poland,driving
+yavorivcombattrainingcenter__bachivsktroiebortne__russianfederation__transit,0.0,Yavoriv Combat Training Center,Bachivsk - Troiebortne,Russian Federation,transit
+yavorivcombattrainingcenter__choptysazakhon__hungary__driving,0.0,Yavoriv Combat Training Center,Chop (Tysa) - Zakhon,Hungary,driving
+yavorivcombattrainingcenter__choptysazakhon__hungary__transit,0.0,Yavoriv Combat Training Center,Chop (Tysa) - Zakhon,Hungary,transit
+yavorivcombattrainingcenter__diakovehalmeu__romania__driving,0.0,Yavoriv Combat Training Center,Diakove - Halmeu,Romania,driving
+yavorivcombattrainingcenter__hrushivbudomiezh__poland__transit,0.0,Yavoriv Combat Training Center,Hrushiv - Budomiezh,Poland,transit
+yavorivcombattrainingcenter__krakivetskorchova__poland__driving,0.0,Yavoriv Combat Training Center,Krakivets - Korchova,Poland,driving
+yavorivcombattrainingcenter__malyibereznyiubla__slovakia__driving,0.0,Yavoriv Combat Training Center,Malyi Bereznyi - Ubl'a,Slovakia,driving
+yavorivcombattrainingcenter__mamalyhaкryva__moldova__driving,0.0,Yavoriv Combat Training Center,Mamalyha - Кryva,Moldova,driving
+yavorivcombattrainingcenter__mohylivpodilskyiotach__moldova__transit,0.0,Yavoriv Combat Training Center,Mohyliv-Podilskyi - Otach,Moldova,transit
+yavorivcombattrainingcenter__pishchaoltush__belarus__driving,0.0,Yavoriv Combat Training Center,Pishcha - Oltush,Belarus,driving
+yavorivcombattrainingcenter__senkivkanoviyurkovychi__russianfederation__driving,0.0,Yavoriv Combat Training Center,Senkivka - Novi Yurkovychi,Russian Federation,driving
+yavorivcombattrainingcenter__senkivkaveselivka__belarus__transit,0.0,Yavoriv Combat Training Center,Senkivka - Veselivka,Belarus,transit
+yavorivcombattrainingcenter__uzhhorodvyshnieniemetske__slovakia__transit,16264.0,Yavoriv Combat Training Center,Uzhhorod - Vyshnie-Niemetske,Slovakia,transit
+zaporizhia__choptysazakhon__hungary__driving,0.0,Zaporizhia,Chop (Tysa) - Zakhon,Hungary,driving
+zaporizhia__choptysazakhon__hungary__transit,328791.0,Zaporizhia,Chop (Tysa) - Zakhon,Hungary,transit
+zaporizhia__hoptivkanehotievka__russianfederation__transit,0.0,Zaporizhia,Hoptivka - Nehotievka,Russian Federation,transit
+zaporizhia__hrushivbudomiezh__poland__transit,0.0,Zaporizhia,Hrushiv - Budomiezh,Poland,transit
+zaporizhia__maiakyudobnepalanka__moldova__transit,0.0,Zaporizhia,Maiaky - Udobne-Palanka,Moldova,transit
+zaporizhia__malyibereznyiubla__slovakia__driving,0.0,Zaporizhia,Malyi Bereznyi - Ubl'a,Slovakia,driving
+zaporizhia__novoazovskveselovoznesenka__russianfederation__driving,0.0,Zaporizhia,Novoazovsk - Veselo-Voznesenka,Russian Federation,driving
+zaporizhia__platonovehoianulnou__moldova__driving,0.0,Zaporizhia,Platonove - Hoianul Nou,Moldova,driving
+zaporizhia__porubnesiret__romania__driving,0.0,Zaporizhia,Porubne - Siret,Romania,driving
+zaporizhia__senkivkaveselivka__belarus__transit,0.0,Zaporizhia,Senkivka - Veselivka,Belarus,transit
+zaporizhia__solotvynosihetumarmatsiiei__romania__transit,0.0,Zaporizhia,Solotvyno-Sihetu Marmatsiiei,Romania,transit
+zaporizhia__vilchaoleksandrivka__belarus__driving,0.0,Zaporizhia,Vilcha - Oleksandrivka,Belarus,driving
+zaporizhia__yahodyndorohusk__poland__driving,0.0,Zaporizhia,Yahodyn - Dorohusk,Poland,driving

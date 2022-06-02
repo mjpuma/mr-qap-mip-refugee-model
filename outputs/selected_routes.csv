@@ -1,0 +1,407 @@
+conflict,crossing,crossing_country,duration,duration_text,mode,crossing_lat,crossing_lon,conflict_lat,conflict_lon,fatalities
+Oleksandrivka,Yahodyn - Dorohusk,Poland,59002.0,16 hours 23 mins,driving,51.1852213611046,23.80777061,46.6,32.1,100.0
+Oleksandrivka,Platonove - Hoianul Nou,Moldova,38239.0,10 hours 37 mins,driving,47.4035177980076,29.3299989816095,46.6,32.1,100.0
+Oleksandrivka,Porubne - Siret,Romania,54337.0,15 hours 6 mins,driving,47.9889804990189,26.0600757026769,46.6,32.1,100.0
+Oleksandrivka,Malyi Bereznyi - Ubl'a,Slovakia,68319.0,18 hours 59 mins,driving,48.8852048505616,22.4206249175739,46.6,32.1,100.0
+Oleksandrivka,Chop (Tysa) - Zakhon,Hungary,69480.0,19 hours 18 mins,driving,48.4185936858801,22.1700658067502,46.6,32.1,100.0
+Oleksandrivka,Vilcha - Oleksandrivka,Belarus,44566.0,12 hours 23 mins,driving,51.3756116,29.4093392,46.6,32.1,100.0
+Oleksandrivka,Novoazovsk - Veselo-Voznesenka,Russian Federation,28114.0,7 hours 49 mins,driving,47.1593699991774,38.2256499998797,46.6,32.1,100.0
+Oleshky,Yahodyn - Dorohusk,Poland,56531.0,15 hours 42 mins,driving,51.1852213611046,23.80777061,46.6,32.7,13.0
+Oleshky,Platonove - Hoianul Nou,Moldova,35768.0,9 hours 56 mins,driving,47.4035177980076,29.3299989816095,46.6,32.7,13.0
+Oleshky,Porubne - Siret,Romania,51865.0,14 hours 24 mins,driving,47.9889804990189,26.0600757026769,46.6,32.7,13.0
+Oleshky,Malyi Bereznyi - Ubl'a,Slovakia,65847.0,18 hours 17 mins,driving,48.8852048505616,22.4206249175739,46.6,32.7,13.0
+Oleshky,Chop (Tysa) - Zakhon,Hungary,67008.0,18 hours 37 mins,driving,48.4185936858801,22.1700658067502,46.6,32.7,13.0
+Oleshky,Vilcha - Oleksandrivka,Belarus,42094.0,11 hours 42 mins,driving,51.3756116,29.4093392,46.6,32.7,13.0
+Oleshky,Novoazovsk - Veselo-Voznesenka,Russian Federation,24246.0,6 hours 44 mins,driving,47.1593699991774,38.2256499998797,46.6,32.7,13.0
+Kobleve,Ustyluh - Zosin,Poland,43746.0,12 hours 9 mins,driving,50.8592650004607,24.1346850003948,46.7,31.2,40.0
+Kobleve,Kuchurhan - Pervomaisk,Moldova,7042.0,1 hour 57 mins,driving,46.7372122988371,29.9744340074737,46.7,31.2,40.0
+Kobleve,Orlivka - Isaceea,Romania,19356.0,5 hours 23 mins,driving,45.29415433,28.45765853,46.7,31.2,40.0
+Kobleve,Malyi Bereznyi - Ubl'a,Slovakia,52531.0,14 hours 36 mins,driving,48.8852048505616,22.4206249175739,46.7,31.2,40.0
+Kobleve,Chop (Tysa) - Zakhon,Hungary,53692.0,14 hours 55 mins,driving,48.4185936858801,22.1700658067502,46.7,31.2,40.0
+Kobleve,Vilcha - Oleksandrivka,Belarus,30393.0,8 hours 27 mins,driving,51.3756116,29.4093392,46.7,31.2,40.0
+Kobleve,Senkivka - Novi Yurkovychi,Russian Federation,38184.0,10 hours 36 mins,driving,52.11158,31.78191,46.7,31.2,40.0
+Kherson,Rava-Ruska - Khrebenne,Poland,80367.0,22 hours 19 mins,transit,50.2745417627704,23.5885080374323,46.7,32.6,120.0
+Kherson,Yahodyn - Dorohusk,Poland,56207.0,15 hours 37 mins,driving,51.1852213611046,23.80777061,46.7,32.6,120.0
+Kherson,Maiaky - Udobne-Palanka,Moldova,49396.0,13 hours 43 mins,transit,46.3845441486797,30.0874046179872,46.7,32.6,120.0
+Kherson,Platonove - Hoianul Nou,Moldova,35444.0,9 hours 51 mins,driving,47.4035177980076,29.3299989816095,46.7,32.6,120.0
+Kherson,Solotvyno-Sihetu Marmatsiiei,Romania,142675.0,1 day 16 hours,transit,47.940601987896,23.8781014459885,46.7,32.6,120.0
+Kherson,Porubne - Siret,Romania,51541.0,14 hours 19 mins,driving,47.9889804990189,26.0600757026769,46.7,32.6,120.0
+Kherson,Uzhhorod - Vyshnie-Niemetske,Slovakia,129790.0,1 day 12 hours,transit,48.6555219632231,22.2659826188978,46.7,32.6,120.0
+Kherson,Malyi Bereznyi - Ubl'a,Slovakia,65523.0,18 hours 12 mins,driving,48.8852048505616,22.4206249175739,46.7,32.6,120.0
+Kherson,Chop (Tysa) - Zakhon,Hungary,127274.0,1 day 11 hours,transit,48.4185936858801,22.1700658067502,46.7,32.6,120.0
+Kherson,Chop (Tysa) - Zakhon,Hungary,66684.0,18 hours 31 mins,driving,48.4185936858801,22.1700658067502,46.7,32.6,120.0
+Kherson,Vilcha - Oleksandrivka,Belarus,41770.0,11 hours 36 mins,driving,51.3756116,29.4093392,46.7,32.6,120.0
+Kherson,Bachivsk - Troiebortne,Russian Federation,91491.0,1 day 1 hour,transit,51.8748399996953,34.3233899999337,46.7,32.6,120.0
+Kherson,Novoazovsk - Veselo-Voznesenka,Russian Federation,25416.0,7 hours 4 mins,driving,47.1593699991774,38.2256499998797,46.7,32.6,120.0
+Kyselivka,Yahodyn - Dorohusk,Poland,57860.0,16 hours 4 mins,driving,51.1852213611046,23.80777061,46.8,32.4,74.0
+Kyselivka,Platonove - Hoianul Nou,Moldova,37097.0,10 hours 18 mins,driving,47.4035177980076,29.3299989816095,46.8,32.4,74.0
+Kyselivka,Porubne - Siret,Romania,53195.0,14 hours 47 mins,driving,47.9889804990189,26.0600757026769,46.8,32.4,74.0
+Kyselivka,Malyi Bereznyi - Ubl'a,Slovakia,67177.0,18 hours 40 mins,driving,48.8852048505616,22.4206249175739,46.8,32.4,74.0
+Kyselivka,Chop (Tysa) - Zakhon,Hungary,68338.0,18 hours 59 mins,driving,48.4185936858801,22.1700658067502,46.8,32.4,74.0
+Kyselivka,Vilcha - Oleksandrivka,Belarus,43424.0,12 hours 4 mins,driving,51.3756116,29.4093392,46.8,32.4,74.0
+Kyselivka,Novoazovsk - Veselo-Voznesenka,Russian Federation,27069.0,7 hours 31 mins,driving,47.1593699991774,38.2256499998797,46.8,32.4,74.0
+Melitopol,Yahodyn - Dorohusk,Poland,56518.0,15 hours 42 mins,driving,51.1852213611046,23.80777061,46.8,35.4,100.0
+Melitopol,Platonove - Hoianul Nou,Moldova,40334.0,11 hours 12 mins,driving,47.4035177980076,29.3299989816095,46.8,35.4,100.0
+Melitopol,Porubne - Siret,Romania,56432.0,15 hours 41 mins,driving,47.9889804990189,26.0600757026769,46.8,35.4,100.0
+Melitopol,Malyi Bereznyi - Ubl'a,Slovakia,70413.0,19 hours 34 mins,driving,48.8852048505616,22.4206249175739,46.8,35.4,100.0
+Melitopol,Chop (Tysa) - Zakhon,Hungary,71575.0,19 hours 53 mins,driving,48.4185936858801,22.1700658067502,46.8,35.4,100.0
+Melitopol,Vilcha - Oleksandrivka,Belarus,41899.0,11 hours 38 mins,driving,51.3756116,29.4093392,46.8,35.4,100.0
+Melitopol,Novoazovsk - Veselo-Voznesenka,Russian Federation,13499.0,3 hours 45 mins,driving,47.1593699991774,38.2256499998797,46.8,35.4,100.0
+Mykolaiv,Rava-Ruska - Khrebenne,Poland,86569.0,1 day 0 hours,transit,50.2745417627704,23.5885080374323,47.0,32.0,250.0
+Mykolaiv,Ustyluh - Zosin,Poland,47316.0,13 hours 9 mins,driving,50.8592650004607,24.1346850003948,47.0,32.0,250.0
+Mykolaiv,Maiaky - Udobne-Palanka,Moldova,55598.0,15 hours 27 mins,transit,46.3845441486797,30.0874046179872,47.0,32.0,250.0
+Mykolaiv,Kuchurhan - Pervomaisk,Moldova,10612.0,2 hours 57 mins,driving,46.7372122988371,29.9744340074737,47.0,32.0,250.0
+Mykolaiv,Solotvyno-Sihetu Marmatsiiei,Romania,144687.0,1 day 16 hours,transit,47.940601987896,23.8781014459885,47.0,32.0,250.0
+Mykolaiv,Orlivka - Isaceea,Romania,22926.0,6 hours 22 mins,driving,45.29415433,28.45765853,47.0,32.0,250.0
+Mykolaiv,Uzhhorod - Vyshnie-Niemetske,Slovakia,135992.0,1 day 14 hours,transit,48.6555219632231,22.2659826188978,47.0,32.0,250.0
+Mykolaiv,Malyi Bereznyi - Ubl'a,Slovakia,56101.0,15 hours 35 mins,driving,48.8852048505616,22.4206249175739,47.0,32.0,250.0
+Mykolaiv,Chop (Tysa) - Zakhon,Hungary,133476.0,1 day 13 hours,transit,48.4185936858801,22.1700658067502,47.0,32.0,250.0
+Mykolaiv,Chop (Tysa) - Zakhon,Hungary,57263.0,15 hours 54 mins,driving,48.4185936858801,22.1700658067502,47.0,32.0,250.0
+Mykolaiv,Senkivka - Veselivka,Belarus,115732.0,1 day 8 hours,transit,52.1115899995707,31.7813599992716,47.0,32.0,250.0
+Mykolaiv,Vilcha - Oleksandrivka,Belarus,33963.0,9 hours 26 mins,driving,51.3756116,29.4093392,47.0,32.0,250.0
+Mykolaiv,Bachivsk - Troiebortne,Russian Federation,97693.0,1 day 3 hours,transit,51.8748399996953,34.3233899999337,47.0,32.0,250.0
+Mykolaiv,Senkivka - Novi Yurkovychi,Russian Federation,41754.0,11 hours 36 mins,driving,52.11158,31.78191,47.0,32.0,250.0
+Mariupol,Yahodyn - Dorohusk,Poland,61323.0,17 hours 2 mins,driving,51.1852213611046,23.80777061,47.1,37.6,598.0
+Mariupol,Platonove - Hoianul Nou,Moldova,45140.0,12 hours 32 mins,driving,47.4035177980076,29.3299989816095,47.1,37.6,598.0
+Mariupol,Porubne - Siret,Romania,61237.0,17 hours 1 min,driving,47.9889804990189,26.0600757026769,47.1,37.6,598.0
+Mariupol,Malyi Bereznyi - Ubl'a,Slovakia,75219.0,20 hours 54 mins,driving,48.8852048505616,22.4206249175739,47.1,37.6,598.0
+Mariupol,Chop (Tysa) - Zakhon,Hungary,76380.0,21 hours 13 mins,driving,48.4185936858801,22.1700658067502,47.1,37.6,598.0
+Mariupol,Vilcha - Oleksandrivka,Belarus,46705.0,12 hours 58 mins,driving,51.3756116,29.4093392,47.1,37.6,598.0
+Mariupol,Novoazovsk - Veselo-Voznesenka,Russian Federation,3640.0,1 hour 1 min,driving,47.1593699991774,38.2256499998797,47.1,37.6,598.0
+Velyka Oleksandrivka,Yahodyn - Dorohusk,Poland,50520.0,14 hours 2 mins,driving,51.1852213611046,23.80777061,47.3,33.3,140.0
+Velyka Oleksandrivka,Platonove - Hoianul Nou,Moldova,29757.0,8 hours 16 mins,driving,47.4035177980076,29.3299989816095,47.3,33.3,140.0
+Velyka Oleksandrivka,Porubne - Siret,Romania,45855.0,12 hours 44 mins,driving,47.9889804990189,26.0600757026769,47.3,33.3,140.0
+Velyka Oleksandrivka,Malyi Bereznyi - Ubl'a,Slovakia,59837.0,16 hours 37 mins,driving,48.8852048505616,22.4206249175739,47.3,33.3,140.0
+Velyka Oleksandrivka,Chop (Tysa) - Zakhon,Hungary,60998.0,16 hours 57 mins,driving,48.4185936858801,22.1700658067502,47.3,33.3,140.0
+Velyka Oleksandrivka,Vilcha - Oleksandrivka,Belarus,36084.0,10 hours 1 min,driving,51.3756116,29.4093392,47.3,33.3,140.0
+Velyka Oleksandrivka,Novoazovsk - Veselo-Voznesenka,Russian Federation,26106.0,7 hours 15 mins,driving,47.1593699991774,38.2256499998797,47.3,33.3,140.0
+Polohy,Yahodyn - Dorohusk,Poland,55214.0,15 hours 20 mins,driving,51.1852213611046,23.80777061,47.5,36.3,48.0
+Polohy,Platonove - Hoianul Nou,Moldova,39030.0,10 hours 51 mins,driving,47.4035177980076,29.3299989816095,47.5,36.3,48.0
+Polohy,Porubne - Siret,Romania,55128.0,15 hours 19 mins,driving,47.9889804990189,26.0600757026769,47.5,36.3,48.0
+Polohy,Malyi Bereznyi - Ubl'a,Slovakia,69110.0,19 hours 12 mins,driving,48.8852048505616,22.4206249175739,47.5,36.3,48.0
+Polohy,Chop (Tysa) - Zakhon,Hungary,70271.0,19 hours 31 mins,driving,48.4185936858801,22.1700658067502,47.5,36.3,48.0
+Polohy,Vilcha - Oleksandrivka,Belarus,40595.0,11 hours 17 mins,driving,51.3756116,29.4093392,47.5,36.3,48.0
+Polohy,Novoazovsk - Veselo-Voznesenka,Russian Federation,10515.0,2 hours 55 mins,driving,47.1593699991774,38.2256499998797,47.5,36.3,48.0
+Volnovakha,Yahodyn - Dorohusk,Poland,60010.0,16 hours 40 mins,driving,51.1852213611046,23.80777061,47.6,37.5,15.0
+Volnovakha,Platonove - Hoianul Nou,Moldova,45414.0,12 hours 37 mins,driving,47.4035177980076,29.3299989816095,47.6,37.5,15.0
+Volnovakha,Porubne - Siret,Romania,61512.0,17 hours 5 mins,driving,47.9889804990189,26.0600757026769,47.6,37.5,15.0
+Volnovakha,Malyi Bereznyi - Ubl'a,Slovakia,75493.0,20 hours 58 mins,driving,48.8852048505616,22.4206249175739,47.6,37.5,15.0
+Volnovakha,Chop (Tysa) - Zakhon,Hungary,76655.0,21 hours 18 mins,driving,48.4185936858801,22.1700658067502,47.6,37.5,15.0
+Volnovakha,Vilcha - Oleksandrivka,Belarus,45391.0,12 hours 37 mins,driving,51.3756116,29.4093392,47.6,37.5,15.0
+Volnovakha,Novoazovsk - Veselo-Voznesenka,Russian Federation,6437.0,1 hour 47 mins,driving,47.1593699991774,38.2256499998797,47.6,37.5,15.0
+Zaporizhia,Hrushiv - Budomiezh,Poland,67343.0,18 hours 42 mins,transit,50.0969149998345,23.2801600001264,47.8,35.2,229.0
+Zaporizhia,Yahodyn - Dorohusk,Poland,49565.0,13 hours 46 mins,driving,51.1852213611046,23.80777061,47.8,35.2,229.0
+Zaporizhia,Maiaky - Udobne-Palanka,Moldova,71646.0,19 hours 54 mins,transit,46.3845441486797,30.0874046179872,47.8,35.2,229.0
+Zaporizhia,Platonove - Hoianul Nou,Moldova,33381.0,9 hours 16 mins,driving,47.4035177980076,29.3299989816095,47.8,35.2,229.0
+Zaporizhia,Solotvyno-Sihetu Marmatsiiei,Romania,93265.0,1 day 2 hours,transit,47.940601987896,23.8781014459885,47.8,35.2,229.0
+Zaporizhia,Porubne - Siret,Romania,49479.0,13 hours 45 mins,driving,47.9889804990189,26.0600757026769,47.8,35.2,229.0
+Zaporizhia,Malyi Bereznyi - Ubl'a,Slovakia,63461.0,17 hours 38 mins,driving,48.8852048505616,22.4206249175739,47.8,35.2,229.0
+Zaporizhia,Chop (Tysa) - Zakhon,Hungary,96037.0,1 day 3 hours,transit,48.4185936858801,22.1700658067502,47.8,35.2,229.0
+Zaporizhia,Chop (Tysa) - Zakhon,Hungary,64622.0,17 hours 57 mins,driving,48.4185936858801,22.1700658067502,47.8,35.2,229.0
+Zaporizhia,Senkivka - Veselivka,Belarus,62630.0,17 hours 24 mins,transit,52.1115899995707,31.7813599992716,47.8,35.2,229.0
+Zaporizhia,Vilcha - Oleksandrivka,Belarus,34946.0,9 hours 42 mins,driving,51.3756116,29.4093392,47.8,35.2,229.0
+Zaporizhia,Hoptivka - Nehotievka,Russian Federation,33586.0,9 hours 20 mins,transit,50.3328528319657,36.2797938450708,47.8,35.2,229.0
+Zaporizhia,Novoazovsk - Veselo-Voznesenka,Russian Federation,14410.0,4 hours 0 mins,driving,47.1593699991774,38.2256499998797,47.8,35.2,229.0
+Kurakhove,Yahodyn - Dorohusk,Poland,55392.0,15 hours 23 mins,driving,51.1852213611046,23.80777061,48.0,37.3,250.0
+Kurakhove,Platonove - Hoianul Nou,Moldova,42206.0,11 hours 43 mins,driving,47.4035177980076,29.3299989816095,48.0,37.3,250.0
+Kurakhove,Porubne - Siret,Romania,58304.0,16 hours 12 mins,driving,47.9889804990189,26.0600757026769,48.0,37.3,250.0
+Kurakhove,Malyi Bereznyi - Ubl'a,Slovakia,69489.0,19 hours 18 mins,driving,48.8852048505616,22.4206249175739,48.0,37.3,250.0
+Kurakhove,Chop (Tysa) - Zakhon,Hungary,73447.0,20 hours 24 mins,driving,48.4185936858801,22.1700658067502,48.0,37.3,250.0
+Kurakhove,Vilcha - Oleksandrivka,Belarus,40773.0,11 hours 20 mins,driving,51.3756116,29.4093392,48.0,37.3,250.0
+Kurakhove,Novoazovsk - Veselo-Voznesenka,Russian Federation,9027.0,2 hours 30 mins,driving,47.1593699991774,38.2256499998797,48.0,37.3,250.0
+Donetsk,Yahodyn - Dorohusk,Poland,58531.0,16 hours 16 mins,driving,51.1852213611046,23.80777061,48.0,37.8,85.0
+Donetsk,Platonove - Hoianul Nou,Moldova,45346.0,12 hours 36 mins,driving,47.4035177980076,29.3299989816095,48.0,37.8,85.0
+Donetsk,Porubne - Siret,Romania,61444.0,17 hours 4 mins,driving,47.9889804990189,26.0600757026769,48.0,37.8,85.0
+Donetsk,Malyi Bereznyi - Ubl'a,Slovakia,72629.0,20 hours 10 mins,driving,48.8852048505616,22.4206249175739,48.0,37.8,85.0
+Donetsk,Chop (Tysa) - Zakhon,Hungary,76587.0,21 hours 16 mins,driving,48.4185936858801,22.1700658067502,48.0,37.8,85.0
+Donetsk,Vilcha - Oleksandrivka,Belarus,43913.0,12 hours 12 mins,driving,51.3756116,29.4093392,48.0,37.8,85.0
+Donetsk,Marynivka - Kuibyshevo,Russian Federation,6568.0,1 hour 49 mins,driving,47.8663599998052,38.8583399995466,48.0,37.8,85.0
+Novobakhmutivka,Yahodyn - Dorohusk,Poland,57079.0,15 hours 51 mins,driving,51.1852213611046,23.80777061,48.2,37.8,50.0
+Novobakhmutivka,Platonove - Hoianul Nou,Moldova,43893.0,12 hours 12 mins,driving,47.4035177980076,29.3299989816095,48.2,37.8,50.0
+Novobakhmutivka,Porubne - Siret,Romania,59991.0,16 hours 40 mins,driving,47.9889804990189,26.0600757026769,48.2,37.8,50.0
+Novobakhmutivka,Malyi Bereznyi - Ubl'a,Slovakia,71176.0,19 hours 46 mins,driving,48.8852048505616,22.4206249175739,48.2,37.8,50.0
+Novobakhmutivka,Chop (Tysa) - Zakhon,Hungary,75134.0,20 hours 52 mins,driving,48.4185936858801,22.1700658067502,48.2,37.8,50.0
+Novobakhmutivka,Vilcha - Oleksandrivka,Belarus,42460.0,11 hours 48 mins,driving,51.3756116,29.4093392,48.2,37.8,50.0
+Novobakhmutivka,Marynivka - Kuibyshevo,Russian Federation,11828.0,3 hours 17 mins,driving,47.8663599998052,38.8583399995466,48.2,37.8,50.0
+Popasna,Yahodyn - Dorohusk,Poland,56229.0,15 hours 37 mins,driving,51.1852213611046,23.80777061,48.6,38.4,60.0
+Popasna,Platonove - Hoianul Nou,Moldova,47491.0,13 hours 12 mins,driving,47.4035177980076,29.3299989816095,48.6,38.4,60.0
+Popasna,Porubne - Siret,Romania,63589.0,17 hours 40 mins,driving,47.9889804990189,26.0600757026769,48.6,38.4,60.0
+Popasna,Malyi Bereznyi - Ubl'a,Slovakia,70327.0,19 hours 32 mins,driving,48.8852048505616,22.4206249175739,48.6,38.4,60.0
+Popasna,Chop (Tysa) - Zakhon,Hungary,72065.0,20 hours 1 min,driving,48.4185936858801,22.1700658067502,48.6,38.4,60.0
+Popasna,Vilcha - Oleksandrivka,Belarus,41610.0,11 hours 34 mins,driving,51.3756116,29.4093392,48.6,38.4,60.0
+Popasna,Krasna Talivka - Voloshino,Russian Federation,11148.0,3 hours 6 mins,driving,48.8904399992662,39.856900000021,48.6,38.4,60.0
+Pervomaisk,Yahodyn - Dorohusk,Poland,60009.0,16 hours 40 mins,driving,51.1852213611046,23.80777061,48.6,38.5,28.0
+Pervomaisk,Platonove - Hoianul Nou,Moldova,51504.0,14 hours 18 mins,driving,47.4035177980076,29.3299989816095,48.6,38.5,28.0
+Pervomaisk,Porubne - Siret,Romania,65405.0,18 hours 10 mins,driving,47.9889804990189,26.0600757026769,48.6,38.5,28.0
+Pervomaisk,Malyi Bereznyi - Ubl'a,Slovakia,74106.0,20 hours 35 mins,driving,48.8852048505616,22.4206249175739,48.6,38.5,28.0
+Pervomaisk,Chop (Tysa) - Zakhon,Hungary,75845.0,21 hours 4 mins,driving,48.4185936858801,22.1700658067502,48.6,38.5,28.0
+Pervomaisk,Vilcha - Oleksandrivka,Belarus,45390.0,12 hours 37 mins,driving,51.3756116,29.4093392,48.6,38.5,28.0
+Pervomaisk,Izvaryne - Donetsk,Russian Federation,8735.0,2 hours 26 mins,driving,48.2910299995817,39.910209999993,48.6,38.5,28.0
+Luhansk,Shehyni - Medyka,Poland,151665.0,1 day 18 hours,transit,49.7997107051379,22.9473589152849,48.6,39.3,130.0
+Luhansk,Yahodyn - Dorohusk,Poland,62179.0,17 hours 16 mins,driving,51.1852213611046,23.80777061,48.6,39.3,130.0
+Luhansk,Maiaky - Udobne-Palanka,Moldova,175426.0,2 days 1 hour,transit,46.3845441486797,30.0874046179872,48.6,39.3,130.0
+Luhansk,Platonove - Hoianul Nou,Moldova,54693.0,15 hours 12 mins,driving,47.4035177980076,29.3299989816095,48.6,39.3,130.0
+Luhansk,Solotvyno-Sihetu Marmatsiiei,Romania,238415.0,2 days 18 hours,transit,47.940601987896,23.8781014459885,48.6,39.3,130.0
+Luhansk,Porubne - Siret,Romania,67575.0,18 hours 46 mins,driving,47.9889804990189,26.0600757026769,48.6,39.3,130.0
+Luhansk,Uzhhorod - Vyshnie-Niemetske,Slovakia,184120.0,2 days 3 hours,transit,48.6555219632231,22.2659826188978,48.6,39.3,130.0
+Luhansk,Malyi Bereznyi - Ubl'a,Slovakia,76276.0,21 hours 11 mins,driving,48.8852048505616,22.4206249175739,48.6,39.3,130.0
+Luhansk,Chop (Tysa) - Zakhon,Hungary,183104.0,2 days 3 hours,transit,48.4185936858801,22.1700658067502,48.6,39.3,130.0
+Luhansk,Chop (Tysa) - Zakhon,Hungary,78015.0,21 hours 40 mins,driving,48.4185936858801,22.1700658067502,48.6,39.3,130.0
+Luhansk,Senkivka - Veselivka,Belarus,209460.0,2 days 10 hours,transit,52.1115899995707,31.7813599992716,48.6,39.3,130.0
+Luhansk,Vilcha - Oleksandrivka,Belarus,47560.0,13 hours 13 mins,driving,51.3756116,29.4093392,48.6,39.3,130.0
+Luhansk,Dovzhansky - Novoshakhtinsk,Russian Federation,9545.0,2 hours 39 mins,transit,47.8468699998155,39.7557199990743,48.6,39.3,130.0
+Luhansk,Izvaryne - Donetsk,Russian Federation,4231.0,1 hour 11 mins,driving,48.2910299995817,39.910209999993,48.6,39.3,130.0
+Kramatorsk,Yahodyn - Dorohusk,Poland,54324.0,15 hours 5 mins,driving,51.1852213611046,23.80777061,48.7,37.6,57.0
+Kramatorsk,Platonove - Hoianul Nou,Moldova,44289.0,12 hours 18 mins,driving,47.4035177980076,29.3299989816095,48.7,37.6,57.0
+Kramatorsk,Porubne - Siret,Romania,60387.0,16 hours 46 mins,driving,47.9889804990189,26.0600757026769,48.7,37.6,57.0
+Kramatorsk,Malyi Bereznyi - Ubl'a,Slovakia,68422.0,19 hours 0 mins,driving,48.8852048505616,22.4206249175739,48.7,37.6,57.0
+Kramatorsk,Chop (Tysa) - Zakhon,Hungary,70160.0,19 hours 29 mins,driving,48.4185936858801,22.1700658067502,48.7,37.6,57.0
+Kramatorsk,Vilcha - Oleksandrivka,Belarus,39705.0,11 hours 2 mins,driving,51.3756116,29.4093392,48.7,37.6,57.0
+Kramatorsk,Hoptivka - Nehotievka,Russian Federation,11430.0,3 hours 11 mins,driving,50.3328528319657,36.2797938450708,48.7,37.6,57.0
+Schastia,Yahodyn - Dorohusk,Poland,62803.0,17 hours 27 mins,driving,51.1852213611046,23.80777061,48.7,39.2,50.0
+Schastia,Platonove - Hoianul Nou,Moldova,55843.0,15 hours 31 mins,driving,47.4035177980076,29.3299989816095,48.7,39.2,50.0
+Schastia,Porubne - Siret,Romania,68199.0,18 hours 57 mins,driving,47.9889804990189,26.0600757026769,48.7,39.2,50.0
+Schastia,Malyi Bereznyi - Ubl'a,Slovakia,76901.0,21 hours 22 mins,driving,48.8852048505616,22.4206249175739,48.7,39.2,50.0
+Schastia,Chop (Tysa) - Zakhon,Hungary,78639.0,21 hours 51 mins,driving,48.4185936858801,22.1700658067502,48.7,39.2,50.0
+Schastia,Vilcha - Oleksandrivka,Belarus,48184.0,13 hours 23 mins,driving,51.3756116,29.4093392,48.7,39.2,50.0
+Schastia,Izvaryne - Donetsk,Russian Federation,5645.0,1 hour 34 mins,driving,48.2910299995817,39.910209999993,48.7,39.2,50.0
+Bilohorivka,Yahodyn - Dorohusk,Poland,57105.0,15 hours 52 mins,driving,51.1852213611046,23.80777061,48.9,38.2,625.0
+Bilohorivka,Platonove - Hoianul Nou,Moldova,49287.0,13 hours 41 mins,driving,47.4035177980076,29.3299989816095,48.9,38.2,625.0
+Bilohorivka,Porubne - Siret,Romania,62501.0,17 hours 22 mins,driving,47.9889804990189,26.0600757026769,48.9,38.2,625.0
+Bilohorivka,Malyi Bereznyi - Ubl'a,Slovakia,71203.0,19 hours 47 mins,driving,48.8852048505616,22.4206249175739,48.9,38.2,625.0
+Bilohorivka,Chop (Tysa) - Zakhon,Hungary,72941.0,20 hours 16 mins,driving,48.4185936858801,22.1700658067502,48.9,38.2,625.0
+Bilohorivka,Vilcha - Oleksandrivka,Belarus,42486.0,11 hours 48 mins,driving,51.3756116,29.4093392,48.9,38.2,625.0
+Bilohorivka,Krasna Talivka - Voloshino,Russian Federation,10102.0,2 hours 48 mins,driving,48.8904399992662,39.856900000021,48.9,38.2,625.0
+Lysychansk,Yahodyn - Dorohusk,Poland,57073.0,15 hours 51 mins,driving,51.1852213611046,23.80777061,48.9,38.4,60.0
+Lysychansk,Platonove - Hoianul Nou,Moldova,48614.0,13 hours 30 mins,driving,47.4035177980076,29.3299989816095,48.9,38.4,60.0
+Lysychansk,Porubne - Siret,Romania,62469.0,17 hours 21 mins,driving,47.9889804990189,26.0600757026769,48.9,38.4,60.0
+Lysychansk,Malyi Bereznyi - Ubl'a,Slovakia,71170.0,19 hours 46 mins,driving,48.8852048505616,22.4206249175739,48.9,38.4,60.0
+Lysychansk,Chop (Tysa) - Zakhon,Hungary,72909.0,20 hours 15 mins,driving,48.4185936858801,22.1700658067502,48.9,38.4,60.0
+Lysychansk,Vilcha - Oleksandrivka,Belarus,42454.0,11 hours 48 mins,driving,51.3756116,29.4093392,48.9,38.4,60.0
+Lysychansk,Krasna Talivka - Voloshino,Russian Federation,8430.0,2 hours 21 mins,driving,48.8904399992662,39.856900000021,48.9,38.4,60.0
+Severodonetsk,Krakivets - Korchova,Poland,180040.0,2 days 2 hours,transit,49.9549865421823,23.1138868769913,48.9,38.5,112.0
+Severodonetsk,Yahodyn - Dorohusk,Poland,57767.0,16 hours 3 mins,driving,51.1852213611046,23.80777061,48.9,38.5,112.0
+Severodonetsk,Maiaky - Udobne-Palanka,Moldova,200375.0,2 days 8 hours,transit,46.3845441486797,30.0874046179872,48.9,38.5,112.0
+Severodonetsk,Platonove - Hoianul Nou,Moldova,49986.0,13 hours 53 mins,driving,47.4035177980076,29.3299989816095,48.9,38.5,112.0
+Severodonetsk,Porubne - Siret,Romania,63163.0,17 hours 33 mins,driving,47.9889804990189,26.0600757026769,48.9,38.5,112.0
+Severodonetsk,Uzhhorod - Vyshnie-Niemetske,Slovakia,209069.0,2 days 10 hours,transit,48.6555219632231,22.2659826188978,48.9,38.5,112.0
+Severodonetsk,Malyi Bereznyi - Ubl'a,Slovakia,71864.0,19 hours 58 mins,driving,48.8852048505616,22.4206249175739,48.9,38.5,112.0
+Severodonetsk,Chop (Tysa) - Zakhon,Hungary,263970.0,3 days 1 hour,transit,48.4185936858801,22.1700658067502,48.9,38.5,112.0
+Severodonetsk,Chop (Tysa) - Zakhon,Hungary,73603.0,20 hours 27 mins,driving,48.4185936858801,22.1700658067502,48.9,38.5,112.0
+Severodonetsk,Senkivka - Veselivka,Belarus,242809.0,2 days 19 hours,transit,52.1115899995707,31.7813599992716,48.9,38.5,112.0
+Severodonetsk,Vilcha - Oleksandrivka,Belarus,43148.0,11 hours 59 mins,driving,51.3756116,29.4093392,48.9,38.5,112.0
+Severodonetsk,Dovzhansky - Novoshakhtinsk,Russian Federation,34116.0,9 hours 29 mins,transit,47.8468699998155,39.7557199990743,48.9,38.5,112.0
+Severodonetsk,Krasna Talivka - Voloshino,Russian Federation,7577.0,2 hours 6 mins,driving,48.8904399992662,39.856900000021,48.9,38.5,112.0
+Metolkine,Yahodyn - Dorohusk,Poland,58071.0,16 hours 8 mins,driving,51.1852213611046,23.80777061,48.9,38.6,20.0
+Metolkine,Platonove - Hoianul Nou,Moldova,50597.0,14 hours 3 mins,driving,47.4035177980076,29.3299989816095,48.9,38.6,20.0
+Metolkine,Porubne - Siret,Romania,63467.0,17 hours 38 mins,driving,47.9889804990189,26.0600757026769,48.9,38.6,20.0
+Metolkine,Malyi Bereznyi - Ubl'a,Slovakia,72169.0,20 hours 3 mins,driving,48.8852048505616,22.4206249175739,48.9,38.6,20.0
+Metolkine,Chop (Tysa) - Zakhon,Hungary,73908.0,20 hours 32 mins,driving,48.4185936858801,22.1700658067502,48.9,38.6,20.0
+Metolkine,Vilcha - Oleksandrivka,Belarus,43453.0,12 hours 4 mins,driving,51.3756116,29.4093392,48.9,38.6,20.0
+Metolkine,Krasna Talivka - Voloshino,Russian Federation,7151.0,1 hour 59 mins,driving,48.8904399992662,39.856900000021,48.9,38.6,20.0
+Virnopillia,Yahodyn - Dorohusk,Poland,52093.0,14 hours 28 mins,driving,51.1852213611046,23.80777061,49.0,37.1,50.0
+Virnopillia,Platonove - Hoianul Nou,Moldova,46341.0,12 hours 52 mins,driving,47.4035177980076,29.3299989816095,49.0,37.1,50.0
+Virnopillia,Porubne - Siret,Romania,57489.0,15 hours 58 mins,driving,47.9889804990189,26.0600757026769,49.0,37.1,50.0
+Virnopillia,Malyi Bereznyi - Ubl'a,Slovakia,66191.0,18 hours 23 mins,driving,48.8852048505616,22.4206249175739,49.0,37.1,50.0
+Virnopillia,Chop (Tysa) - Zakhon,Hungary,67930.0,18 hours 52 mins,driving,48.4185936858801,22.1700658067502,49.0,37.1,50.0
+Virnopillia,Vilcha - Oleksandrivka,Belarus,37474.0,10 hours 25 mins,driving,51.3756116,29.4093392,49.0,37.1,50.0
+Virnopillia,Hoptivka - Nehotievka,Russian Federation,9199.0,2 hours 33 mins,driving,50.3328528319657,36.2797938450708,49.0,37.1,50.0
+Kreminna,Yahodyn - Dorohusk,Poland,55974.0,15 hours 33 mins,driving,51.1852213611046,23.80777061,49.0,38.2,136.0
+Kreminna,Platonove - Hoianul Nou,Moldova,48746.0,13 hours 32 mins,driving,47.4035177980076,29.3299989816095,49.0,38.2,136.0
+Kreminna,Porubne - Siret,Romania,61370.0,17 hours 3 mins,driving,47.9889804990189,26.0600757026769,49.0,38.2,136.0
+Kreminna,Malyi Bereznyi - Ubl'a,Slovakia,70071.0,19 hours 28 mins,driving,48.8852048505616,22.4206249175739,49.0,38.2,136.0
+Kreminna,Chop (Tysa) - Zakhon,Hungary,71810.0,19 hours 57 mins,driving,48.4185936858801,22.1700658067502,49.0,38.2,136.0
+Kreminna,Vilcha - Oleksandrivka,Belarus,41355.0,11 hours 29 mins,driving,51.3756116,29.4093392,49.0,38.2,136.0
+Kreminna,Pisky - Lohachivka,Russian Federation,8839.0,2 hours 27 mins,driving,49.9990999996826,37.9496200000249,49.0,38.2,136.0
+Rubizhne,Yahodyn - Dorohusk,Poland,56388.0,15 hours 40 mins,driving,51.1852213611046,23.80777061,49.0,38.4,73.0
+Rubizhne,Platonove - Hoianul Nou,Moldova,49722.0,13 hours 49 mins,driving,47.4035177980076,29.3299989816095,49.0,38.4,73.0
+Rubizhne,Porubne - Siret,Romania,61784.0,17 hours 10 mins,driving,47.9889804990189,26.0600757026769,49.0,38.4,73.0
+Rubizhne,Malyi Bereznyi - Ubl'a,Slovakia,70486.0,19 hours 35 mins,driving,48.8852048505616,22.4206249175739,49.0,38.4,73.0
+Rubizhne,Chop (Tysa) - Zakhon,Hungary,72225.0,20 hours 4 mins,driving,48.4185936858801,22.1700658067502,49.0,38.4,73.0
+Rubizhne,Vilcha - Oleksandrivka,Belarus,41770.0,11 hours 36 mins,driving,51.3756116,29.4093392,49.0,38.4,73.0
+Rubizhne,Krasna Talivka - Voloshino,Russian Federation,7787.0,2 hours 10 mins,driving,48.8904399992662,39.856900000021,49.0,38.4,73.0
+Izium,Yahodyn - Dorohusk,Poland,51021.0,14 hours 10 mins,driving,51.1852213611046,23.80777061,49.2,37.2,75.0
+Izium,Platonove - Hoianul Nou,Moldova,45600.0,12 hours 40 mins,driving,47.4035177980076,29.3299989816095,49.2,37.2,75.0
+Izium,Porubne - Siret,Romania,56417.0,15 hours 40 mins,driving,47.9889804990189,26.0600757026769,49.2,37.2,75.0
+Izium,Malyi Bereznyi - Ubl'a,Slovakia,65118.0,18 hours 5 mins,driving,48.8852048505616,22.4206249175739,49.2,37.2,75.0
+Izium,Chop (Tysa) - Zakhon,Hungary,66857.0,18 hours 34 mins,driving,48.4185936858801,22.1700658067502,49.2,37.2,75.0
+Izium,Vilcha - Oleksandrivka,Belarus,36402.0,10 hours 7 mins,driving,51.3756116,29.4093392,49.2,37.2,75.0
+Izium,Hoptivka - Nehotievka,Russian Federation,8127.0,2 hours 15 mins,driving,50.3328528319657,36.2797938450708,49.2,37.2,75.0
+Merefa,Yahodyn - Dorohusk,Poland,44194.0,12 hours 17 mins,driving,51.1852213611046,23.80777061,49.8,36.1,23.0
+Merefa,Platonove - Hoianul Nou,Moldova,38774.0,10 hours 46 mins,driving,47.4035177980076,29.3299989816095,49.8,36.1,23.0
+Merefa,Porubne - Siret,Romania,49591.0,13 hours 47 mins,driving,47.9889804990189,26.0600757026769,49.8,36.1,23.0
+Merefa,Malyi Bereznyi - Ubl'a,Slovakia,58292.0,16 hours 12 mins,driving,48.8852048505616,22.4206249175739,49.8,36.1,23.0
+Merefa,Chop (Tysa) - Zakhon,Hungary,60031.0,16 hours 41 mins,driving,48.4185936858801,22.1700658067502,49.8,36.1,23.0
+Merefa,Vilcha - Oleksandrivka,Belarus,29576.0,8 hours 13 mins,driving,51.3756116,29.4093392,49.8,36.1,23.0
+Merefa,Hoptivka - Nehotievka,Russian Federation,4519.0,1 hour 15 mins,driving,50.3328528319657,36.2797938450708,49.8,36.1,23.0
+Yavoriv Combat Training Center,Hrushiv - Budomiezh,Poland,5212.0,1 hour 27 mins,transit,50.0969149998345,23.2801600001264,49.9,23.4,35.0
+Yavoriv Combat Training Center,Krakivets - Korchova,Poland,1792.0,30 mins,driving,49.9549865421823,23.1138868769913,49.9,23.4,35.0
+Yavoriv Combat Training Center,Mohyliv-Podilskyi - Otach,Moldova,51994.0,14 hours 27 mins,transit,48.4448585627389,27.7913514087357,49.9,23.4,35.0
+Yavoriv Combat Training Center,Mamalyha - Кryva,Moldova,20734.0,5 hours 46 mins,driving,48.265739253562,26.6233986220189,49.9,23.4,35.0
+Yavoriv Combat Training Center,Diakove - Halmeu,Romania,19299.0,5 hours 22 mins,driving,48.0001942688208,23.002530228314,49.9,23.4,35.0
+Yavoriv Combat Training Center,Uzhhorod - Vyshnie-Niemetske,Slovakia,32823.0,9 hours 7 mins,transit,48.6555219632231,22.2659826188978,49.9,23.4,35.0
+Yavoriv Combat Training Center,Malyi Bereznyi - Ubl'a,Slovakia,13401.0,3 hours 43 mins,driving,48.8852048505616,22.4206249175739,49.9,23.4,35.0
+Yavoriv Combat Training Center,Chop (Tysa) - Zakhon,Hungary,31884.0,8 hours 51 mins,transit,48.4185936858801,22.1700658067502,49.9,23.4,35.0
+Yavoriv Combat Training Center,Chop (Tysa) - Zakhon,Hungary,16901.0,4 hours 42 mins,driving,48.4185936858801,22.1700658067502,49.9,23.4,35.0
+Yavoriv Combat Training Center,Senkivka - Veselivka,Belarus,59941.0,16 hours 39 mins,transit,52.1115899995707,31.7813599992716,49.9,23.4,35.0
+Yavoriv Combat Training Center,Pishcha - Oltush,Belarus,15072.0,4 hours 11 mins,driving,51.6413327,23.8776285,49.9,23.4,35.0
+Yavoriv Combat Training Center,Bachivsk - Troiebortne,Russian Federation,55305.0,15 hours 22 mins,transit,51.8748399996953,34.3233899999337,49.9,23.4,35.0
+Yavoriv Combat Training Center,Senkivka - Novi Yurkovychi,Russian Federation,41855.0,11 hours 38 mins,driving,52.11158,31.78191,49.9,23.4,35.0
+Mala Rohan,Smilnytsia - Krostsenko,Poland,79313.0,22 hours 2 mins,transit,49.4815550002911,22.7013070001637,49.9,36.5,20.0
+Mala Rohan,Yahodyn - Dorohusk,Poland,45941.0,12 hours 46 mins,driving,51.1852213611046,23.80777061,49.9,36.5,20.0
+Mala Rohan,Maiaky - Udobne-Palanka,Moldova,82742.0,22 hours 59 mins,transit,46.3845441486797,30.0874046179872,49.9,36.5,20.0
+Mala Rohan,Platonove - Hoianul Nou,Moldova,40520.0,11 hours 15 mins,driving,47.4035177980076,29.3299989816095,49.9,36.5,20.0
+Mala Rohan,Solotvyno-Sihetu Marmatsiiei,Romania,148243.0,1 day 17 hours,transit,47.940601987896,23.8781014459885,49.9,36.5,20.0
+Mala Rohan,Porubne - Siret,Romania,51337.0,14 hours 16 mins,driving,47.9889804990189,26.0600757026769,49.9,36.5,20.0
+Mala Rohan,Uzhhorod - Vyshnie-Niemetske,Slovakia,115316.0,1 day 8 hours,transit,48.6555219632231,22.2659826188978,49.9,36.5,20.0
+Mala Rohan,Malyi Bereznyi - Ubl'a,Slovakia,60038.0,16 hours 41 mins,driving,48.8852048505616,22.4206249175739,49.9,36.5,20.0
+Mala Rohan,Chop (Tysa) - Zakhon,Hungary,88623.0,1 day 1 hour,transit,48.4185936858801,22.1700658067502,49.9,36.5,20.0
+Mala Rohan,Chop (Tysa) - Zakhon,Hungary,61777.0,17 hours 10 mins,driving,48.4185936858801,22.1700658067502,49.9,36.5,20.0
+Mala Rohan,Senkivka - Veselivka,Belarus,54976.0,15 hours 16 mins,transit,52.1115899995707,31.7813599992716,49.9,36.5,20.0
+Mala Rohan,Vilcha - Oleksandrivka,Belarus,31322.0,8 hours 42 mins,driving,51.3756116,29.4093392,49.9,36.5,20.0
+Mala Rohan,Pletenivka - Shebekino,Russian Federation,11816.0,3 hours 17 mins,transit,50.348169623081,36.9227972541852,49.9,36.5,20.0
+Mala Rohan,Hoptivka - Nehotievka,Russian Federation,3047.0,51 mins,driving,50.3328528319657,36.2797938450708,49.9,36.5,20.0
+Kharkiv,Smilnytsia - Krostsenko,Poland,74647.0,20 hours 44 mins,transit,49.4815550002911,22.7013070001637,50.0,36.3,444.0
+Kharkiv,Yahodyn - Dorohusk,Poland,44703.0,12 hours 25 mins,driving,51.1852213611046,23.80777061,50.0,36.3,444.0
+Kharkiv,Maiaky - Udobne-Palanka,Moldova,78076.0,21 hours 41 mins,transit,46.3845441486797,30.0874046179872,50.0,36.3,444.0
+Kharkiv,Platonove - Hoianul Nou,Moldova,39283.0,10 hours 55 mins,driving,47.4035177980076,29.3299989816095,50.0,36.3,444.0
+Kharkiv,Solotvyno-Sihetu Marmatsiiei,Romania,143577.0,1 day 16 hours,transit,47.940601987896,23.8781014459885,50.0,36.3,444.0
+Kharkiv,Porubne - Siret,Romania,50099.0,13 hours 55 mins,driving,47.9889804990189,26.0600757026769,50.0,36.3,444.0
+Kharkiv,Uzhhorod - Vyshnie-Niemetske,Slovakia,112150.0,1 day 7 hours,transit,48.6555219632231,22.2659826188978,50.0,36.3,444.0
+Kharkiv,Malyi Bereznyi - Ubl'a,Slovakia,58801.0,16 hours 20 mins,driving,48.8852048505616,22.4206249175739,50.0,36.3,444.0
+Kharkiv,Chop (Tysa) - Zakhon,Hungary,83957.0,23 hours 19 mins,transit,48.4185936858801,22.1700658067502,50.0,36.3,444.0
+Kharkiv,Chop (Tysa) - Zakhon,Hungary,60539.0,16 hours 49 mins,driving,48.4185936858801,22.1700658067502,50.0,36.3,444.0
+Kharkiv,Senkivka - Veselivka,Belarus,51810.0,14 hours 24 mins,transit,52.1115899995707,31.7813599992716,50.0,36.3,444.0
+Kharkiv,Vilcha - Oleksandrivka,Belarus,30084.0,8 hours 21 mins,driving,51.3756116,29.4093392,50.0,36.3,444.0
+Kharkiv,Hoptivka - Nehotievka,Russian Federation,8816.0,2 hours 27 mins,transit,50.3328528319657,36.2797938450708,50.0,36.3,444.0
+Kharkiv,Hoptivka - Nehotievka,Russian Federation,2766.0,46 mins,driving,50.3328528319657,36.2797938450708,50.0,36.3,444.0
+Okhtyrka,Smilnytsia - Krostsenko,Poland,134554.0,1 day 13 hours,transit,49.4815550002911,22.7013070001637,50.3,34.9,70.0
+Okhtyrka,Yahodyn - Dorohusk,Poland,41136.0,11 hours 26 mins,driving,51.1852213611046,23.80777061,50.3,34.9,70.0
+Okhtyrka,Mohyliv-Podilskyi - Otach,Moldova,107515.0,1 day 6 hours,transit,48.4448585627389,27.7913514087357,50.3,34.9,70.0
+Okhtyrka,Platonove - Hoianul Nou,Moldova,35860.0,9 hours 58 mins,driving,47.4035177980076,29.3299989816095,50.3,34.9,70.0
+Okhtyrka,Solotvyno-Sihetu Marmatsiiei,Romania,225812.0,2 days 15 hours,transit,47.940601987896,23.8781014459885,50.3,34.9,70.0
+Okhtyrka,Porubne - Siret,Romania,46532.0,12 hours 56 mins,driving,47.9889804990189,26.0600757026769,50.3,34.9,70.0
+Okhtyrka,Uzhhorod - Vyshnie-Niemetske,Slovakia,163117.0,1 day 21 hours,transit,48.6555219632231,22.2659826188978,50.3,34.9,70.0
+Okhtyrka,Malyi Bereznyi - Ubl'a,Slovakia,55233.0,15 hours 21 mins,driving,48.8852048505616,22.4206249175739,50.3,34.9,70.0
+Okhtyrka,Luzhanka - Berehshuran,Hungary,174492.0,2 days 0 hours,transit,48.1667515646224,22.5740486123416,50.3,34.9,70.0
+Okhtyrka,Chop (Tysa) - Zakhon,Hungary,56972.0,15 hours 50 mins,driving,48.4185936858801,22.1700658067502,50.3,34.9,70.0
+Okhtyrka,Senkivka - Veselivka,Belarus,196857.0,2 days 7 hours,transit,52.1115899995707,31.7813599992716,50.3,34.9,70.0
+Okhtyrka,Slavutych - Komaryn,Belarus,22875.0,6 hours 21 mins,driving,51.399221,30.657726,50.3,34.9,70.0
+Okhtyrka,Hoptivka - Nehotievka,Russian Federation,81450.0,22 hours 38 mins,transit,50.3328528319657,36.2797938450708,50.3,34.9,70.0
+Okhtyrka,Velyka Pysarivka - Hraivoron,Russian Federation,3514.0,59 mins,driving,50.43111755,35.58616421,50.3,34.9,70.0
+Vovchansk,Yahodyn - Dorohusk,Poland,48574.0,13 hours 30 mins,driving,51.1852213611046,23.80777061,50.3,36.9,70.0
+Vovchansk,Platonove - Hoianul Nou,Moldova,43153.0,11 hours 59 mins,driving,47.4035177980076,29.3299989816095,50.3,36.9,70.0
+Vovchansk,Porubne - Siret,Romania,53970.0,15 hours 0 mins,driving,47.9889804990189,26.0600757026769,50.3,36.9,70.0
+Vovchansk,Malyi Bereznyi - Ubl'a,Slovakia,62672.0,17 hours 25 mins,driving,48.8852048505616,22.4206249175739,50.3,36.9,70.0
+Vovchansk,Chop (Tysa) - Zakhon,Hungary,64410.0,17 hours 54 mins,driving,48.4185936858801,22.1700658067502,50.3,36.9,70.0
+Vovchansk,Vilcha - Oleksandrivka,Belarus,33955.0,9 hours 26 mins,driving,51.3756116,29.4093392,50.3,36.9,70.0
+Vovchansk,Pletenivka - Shebekino,Russian Federation,752.0,13 mins,driving,50.348169623081,36.9227972541852,50.3,36.9,70.0
+Motyzhyn,Yahodyn - Dorohusk,Poland,21532.0,5 hours 59 mins,driving,51.1852213611046,23.80777061,50.4,29.9,37.0
+Motyzhyn,Mohyliv-Podilskyi - Otach,Moldova,15745.0,4 hours 22 mins,driving,48.4448585627389,27.7913514087357,50.4,29.9,37.0
+Motyzhyn,Porubne - Siret,Romania,25629.0,7 hours 7 mins,driving,47.9889804990189,26.0600757026769,50.4,29.9,37.0
+Motyzhyn,Malyi Bereznyi - Ubl'a,Slovakia,34330.0,9 hours 32 mins,driving,48.8852048505616,22.4206249175739,50.4,29.9,37.0
+Motyzhyn,Chop (Tysa) - Zakhon,Hungary,36069.0,10 hours 1 min,driving,48.4185936858801,22.1700658067502,50.4,29.9,37.0
+Motyzhyn,Vilcha - Oleksandrivka,Belarus,8291.0,2 hours 18 mins,driving,51.3756116,29.4093392,50.4,29.9,37.0
+Motyzhyn,Senkivka - Novi Yurkovychi,Russian Federation,18087.0,5 hours 1 min,driving,52.11158,31.78191,50.4,29.9,37.0
+Baryshivka,Yahodyn - Dorohusk,Poland,27007.0,7 hours 30 mins,driving,51.1852213611046,23.80777061,50.4,31.3,40.0
+Baryshivka,Platonove - Hoianul Nou,Moldova,21706.0,6 hours 2 mins,driving,47.4035177980076,29.3299989816095,50.4,31.3,40.0
+Baryshivka,Porubne - Siret,Romania,32566.0,9 hours 3 mins,driving,47.9889804990189,26.0600757026769,50.4,31.3,40.0
+Baryshivka,Malyi Bereznyi - Ubl'a,Slovakia,41268.0,11 hours 28 mins,driving,48.8852048505616,22.4206249175739,50.4,31.3,40.0
+Baryshivka,Chop (Tysa) - Zakhon,Hungary,43006.0,11 hours 57 mins,driving,48.4185936858801,22.1700658067502,50.4,31.3,40.0
+Baryshivka,Slavutych - Komaryn,Belarus,11983.0,3 hours 20 mins,driving,51.399221,30.657726,50.4,31.3,40.0
+Baryshivka,Senkivka - Novi Yurkovychi,Russian Federation,16752.0,4 hours 39 mins,driving,52.11158,31.78191,50.4,31.3,40.0
+Makariv,Yahodyn - Dorohusk,Poland,20403.0,5 hours 40 mins,driving,51.1852213611046,23.80777061,50.5,29.8,121.0
+Makariv,Mohyliv-Podilskyi - Otach,Moldova,16063.0,4 hours 28 mins,driving,48.4448585627389,27.7913514087357,50.5,29.8,121.0
+Makariv,Porubne - Siret,Romania,25946.0,7 hours 12 mins,driving,47.9889804990189,26.0600757026769,50.5,29.8,121.0
+Makariv,Malyi Bereznyi - Ubl'a,Slovakia,34648.0,9 hours 37 mins,driving,48.8852048505616,22.4206249175739,50.5,29.8,121.0
+Makariv,Chop (Tysa) - Zakhon,Hungary,36386.0,10 hours 6 mins,driving,48.4185936858801,22.1700658067502,50.5,29.8,121.0
+Makariv,Vilcha - Oleksandrivka,Belarus,7162.0,1 hour 59 mins,driving,51.3756116,29.4093392,50.5,29.8,121.0
+Makariv,Senkivka - Novi Yurkovychi,Russian Federation,19017.0,5 hours 17 mins,driving,52.11158,31.78191,50.5,29.8,121.0
+Bucha,Krakivets - Korchova,Poland,44998.0,12 hours 30 mins,transit,49.9549865421823,23.1138868769913,50.5,30.2,345.0
+Bucha,Yahodyn - Dorohusk,Poland,20692.0,5 hours 45 mins,driving,51.1852213611046,23.80777061,50.5,30.2,345.0
+Bucha,Mohyliv-Podilskyi - Otach,Moldova,41525.0,11 hours 32 mins,transit,48.4448585627389,27.7913514087357,50.5,30.2,345.0
+Bucha,Mohyliv-Podilskyi - Otach,Moldova,16880.0,4 hours 41 mins,driving,48.4448585627389,27.7913514087357,50.5,30.2,345.0
+Bucha,Porubne - Siret,Romania,26764.0,7 hours 26 mins,driving,47.9889804990189,26.0600757026769,50.5,30.2,345.0
+Bucha,Uzhhorod - Vyshnie-Niemetske,Slovakia,105264.0,1 day 5 hours,transit,48.6555219632231,22.2659826188978,50.5,30.2,345.0
+Bucha,Malyi Bereznyi - Ubl'a,Slovakia,35465.0,9 hours 51 mins,driving,48.8852048505616,22.4206249175739,50.5,30.2,345.0
+Bucha,Chop (Tysa) - Zakhon,Hungary,63774.0,17 hours 43 mins,transit,48.4185936858801,22.1700658067502,50.5,30.2,345.0
+Bucha,Chop (Tysa) - Zakhon,Hungary,37204.0,10 hours 20 mins,driving,48.4185936858801,22.1700658067502,50.5,30.2,345.0
+Bucha,Senkivka - Veselivka,Belarus,37267.0,10 hours 21 mins,transit,52.1115899995707,31.7813599992716,50.5,30.2,345.0
+Bucha,Vilcha - Oleksandrivka,Belarus,7095.0,1 hour 58 mins,driving,51.3756116,29.4093392,50.5,30.2,345.0
+Bucha,Bachivsk - Troiebortne,Russian Federation,26428.0,7 hours 20 mins,transit,51.8748399996953,34.3233899999337,50.5,30.2,345.0
+Bucha,Senkivka - Novi Yurkovychi,Russian Federation,17166.0,4 hours 46 mins,driving,52.11158,31.78191,50.5,30.2,345.0
+Irpin,Yahodyn - Dorohusk,Poland,22484.0,6 hours 15 mins,driving,51.1852213611046,23.80777061,50.5,30.3,50.0
+Irpin,Mohyliv-Podilskyi - Otach,Moldova,18101.0,5 hours 2 mins,driving,48.4448585627389,27.7913514087357,50.5,30.3,50.0
+Irpin,Porubne - Siret,Romania,27984.0,7 hours 46 mins,driving,47.9889804990189,26.0600757026769,50.5,30.3,50.0
+Irpin,Malyi Bereznyi - Ubl'a,Slovakia,36686.0,10 hours 11 mins,driving,48.8852048505616,22.4206249175739,50.5,30.3,50.0
+Irpin,Chop (Tysa) - Zakhon,Hungary,38425.0,10 hours 40 mins,driving,48.4185936858801,22.1700658067502,50.5,30.3,50.0
+Irpin,Vilcha - Oleksandrivka,Belarus,8290.0,2 hours 18 mins,driving,51.3756116,29.4093392,50.5,30.3,50.0
+Irpin,Senkivka - Novi Yurkovychi,Russian Federation,16133.0,4 hours 29 mins,driving,52.11158,31.78191,50.5,30.3,50.0
+Lukyanivka,Yahodyn - Dorohusk,Poland,27044.0,7 hours 31 mins,driving,51.1852213611046,23.80777061,50.5,31.4,40.0
+Lukyanivka,Platonove - Hoianul Nou,Moldova,22212.0,6 hours 10 mins,driving,47.4035177980076,29.3299989816095,50.5,31.4,40.0
+Lukyanivka,Porubne - Siret,Romania,32644.0,9 hours 4 mins,driving,47.9889804990189,26.0600757026769,50.5,31.4,40.0
+Lukyanivka,Malyi Bereznyi - Ubl'a,Slovakia,41346.0,11 hours 29 mins,driving,48.8852048505616,22.4206249175739,50.5,31.4,40.0
+Lukyanivka,Chop (Tysa) - Zakhon,Hungary,43084.0,11 hours 58 mins,driving,48.4185936858801,22.1700658067502,50.5,31.4,40.0
+Lukyanivka,Slavutych - Komaryn,Belarus,11966.0,3 hours 19 mins,driving,51.399221,30.657726,50.5,31.4,40.0
+Lukyanivka,Katerynivka - Krupets,Russian Federation,16639.0,4 hours 37 mins,driving,51.64909047,34.12556717,50.5,31.4,40.0
+Borodianka,Yahodyn - Dorohusk,Poland,20212.0,5 hours 37 mins,driving,51.1852213611046,23.80777061,50.6,29.9,26.0
+Borodianka,Mohyliv-Podilskyi - Otach,Moldova,17832.0,4 hours 57 mins,driving,48.4448585627389,27.7913514087357,50.6,29.9,26.0
+Borodianka,Porubne - Siret,Romania,27716.0,7 hours 42 mins,driving,47.9889804990189,26.0600757026769,50.6,29.9,26.0
+Borodianka,Malyi Bereznyi - Ubl'a,Slovakia,36886.0,10 hours 15 mins,driving,48.8852048505616,22.4206249175739,50.6,29.9,26.0
+Borodianka,Chop (Tysa) - Zakhon,Hungary,38625.0,10 hours 44 mins,driving,48.4185936858801,22.1700658067502,50.6,29.9,26.0
+Borodianka,Vilcha - Oleksandrivka,Belarus,6841.0,1 hour 54 mins,driving,51.3756116,29.4093392,50.6,29.9,26.0
+Borodianka,Senkivka - Novi Yurkovychi,Russian Federation,18906.0,5 hours 15 mins,driving,52.11158,31.78191,50.6,29.9,26.0
+Hostomel,Krakivets - Korchova,Poland,43793.0,12 hours 10 mins,transit,49.9549865421823,23.1138868769913,50.6,30.3,50.0
+Hostomel,Yahodyn - Dorohusk,Poland,22031.0,6 hours 7 mins,driving,51.1852213611046,23.80777061,50.6,30.3,50.0
+Hostomel,Mohyliv-Podilskyi - Otach,Moldova,35107.0,9 hours 45 mins,transit,48.4448585627389,27.7913514087357,50.6,30.3,50.0
+Hostomel,Mohyliv-Podilskyi - Otach,Moldova,18848.0,5 hours 14 mins,driving,48.4448585627389,27.7913514087357,50.6,30.3,50.0
+Hostomel,Solotvyno-Sihetu Marmatsiiei,Romania,70881.0,19 hours 41 mins,transit,47.940601987896,23.8781014459885,50.6,30.3,50.0
+Hostomel,Porubne - Siret,Romania,28732.0,7 hours 59 mins,driving,47.9889804990189,26.0600757026769,50.6,30.3,50.0
+Hostomel,Uzhhorod - Vyshnie-Niemetske,Slovakia,80726.0,22 hours 25 mins,transit,48.6555219632231,22.2659826188978,50.6,30.3,50.0
+Hostomel,Malyi Bereznyi - Ubl'a,Slovakia,37433.0,10 hours 24 mins,driving,48.8852048505616,22.4206249175739,50.6,30.3,50.0
+Hostomel,Chop (Tysa) - Zakhon,Hungary,63633.0,17 hours 41 mins,transit,48.4185936858801,22.1700658067502,50.6,30.3,50.0
+Hostomel,Chop (Tysa) - Zakhon,Hungary,39172.0,10 hours 53 mins,driving,48.4185936858801,22.1700658067502,50.6,30.3,50.0
+Hostomel,Senkivka - Veselivka,Belarus,24081.0,6 hours 41 mins,transit,52.1115899995707,31.7813599992716,50.6,30.3,50.0
+Hostomel,Vilcha - Oleksandrivka,Belarus,7837.0,2 hours 11 mins,driving,51.3756116,29.4093392,50.6,30.3,50.0
+Hostomel,Bachivsk - Troiebortne,Russian Federation,21081.0,5 hours 51 mins,transit,51.8748399996953,34.3233899999337,50.6,30.3,50.0
+Hostomel,Senkivka - Novi Yurkovychi,Russian Federation,16378.0,4 hours 33 mins,driving,52.11158,31.78191,50.6,30.3,50.0
+Desna,Yahodyn - Dorohusk,Poland,27240.0,7 hours 34 mins,driving,51.1852213611046,23.80777061,50.9,30.8,87.0
+Desna,Mohyliv-Podilskyi - Otach,Moldova,23418.0,6 hours 30 mins,driving,48.4448585627389,27.7913514087357,50.9,30.8,87.0
+Desna,Porubne - Siret,Romania,33301.0,9 hours 15 mins,driving,47.9889804990189,26.0600757026769,50.9,30.8,87.0
+Desna,Malyi Bereznyi - Ubl'a,Slovakia,42003.0,11 hours 40 mins,driving,48.8852048505616,22.4206249175739,50.9,30.8,87.0
+Desna,Chop (Tysa) - Zakhon,Hungary,43741.0,12 hours 9 mins,driving,48.4185936858801,22.1700658067502,50.9,30.8,87.0
+Desna,Slavutych - Komaryn,Belarus,7489.0,2 hours 5 mins,driving,51.399221,30.657726,50.9,30.8,87.0
+Desna,Senkivka - Novi Yurkovychi,Russian Federation,12258.0,3 hours 24 mins,driving,52.11158,31.78191,50.9,30.8,87.0
+Sumy,Ustyluh - Zosin,Poland,65799.0,18 hours 17 mins,transit,50.8592650004607,24.1346850003948,50.9,34.8,35.0
+Sumy,Yahodyn - Dorohusk,Poland,40061.0,11 hours 8 mins,driving,51.1852213611046,23.80777061,50.9,34.8,35.0
+Sumy,Mohyliv-Podilskyi - Otach,Moldova,56911.0,15 hours 49 mins,transit,48.4448585627389,27.7913514087357,50.9,34.8,35.0
+Sumy,Platonove - Hoianul Nou,Moldova,34661.0,9 hours 38 mins,driving,47.4035177980076,29.3299989816095,50.9,34.8,35.0
+Sumy,Solotvyno-Sihetu Marmatsiiei,Romania,103185.0,1 day 5 hours,transit,47.940601987896,23.8781014459885,50.9,34.8,35.0
+Sumy,Porubne - Siret,Romania,45661.0,12 hours 41 mins,driving,47.9889804990189,26.0600757026769,50.9,34.8,35.0
+Sumy,Uzhhorod - Vyshnie-Niemetske,Slovakia,140090.0,1 day 15 hours,transit,48.6555219632231,22.2659826188978,50.9,34.8,35.0
+Sumy,Malyi Bereznyi - Ubl'a,Slovakia,54362.0,15 hours 6 mins,driving,48.8852048505616,22.4206249175739,50.9,34.8,35.0
+Sumy,Chop (Tysa) - Zakhon,Hungary,56101.0,15 hours 35 mins,driving,48.4185936858801,22.1700658067502,50.9,34.8,35.0
+Sumy,Senkivka - Veselivka,Belarus,74230.0,20 hours 37 mins,transit,52.1115899995707,31.7813599992716,50.9,34.8,35.0
+Sumy,Slavutych - Komaryn,Belarus,19151.0,5 hours 19 mins,driving,51.399221,30.657726,50.9,34.8,35.0
+Sumy,Senkivka - Novi Yurkovychi,Russian Federation,74175.0,20 hours 36 mins,transit,52.11158,31.78191,50.9,34.8,35.0
+Sumy,Pokrovka - Kolotylіvka,Russian Federation,3946.0,1 hour 6 mins,driving,50.813449999254,35.4096399993619,50.9,34.8,35.0
+Kruty,Yahodyn - Dorohusk,Poland,32760.0,9 hours 6 mins,driving,51.1852213611046,23.80777061,51.1,32.2,200.0
+Kruty,Platonove - Hoianul Nou,Moldova,28343.0,7 hours 52 mins,driving,47.4035177980076,29.3299989816095,51.1,32.2,200.0
+Kruty,Porubne - Siret,Romania,38360.0,10 hours 39 mins,driving,47.9889804990189,26.0600757026769,51.1,32.2,200.0
+Kruty,Malyi Bereznyi - Ubl'a,Slovakia,47061.0,13 hours 4 mins,driving,48.8852048505616,22.4206249175739,51.1,32.2,200.0
+Kruty,Chop (Tysa) - Zakhon,Hungary,48800.0,13 hours 33 mins,driving,48.4185936858801,22.1700658067502,51.1,32.2,200.0
+Kruty,Slavutych - Komaryn,Belarus,8649.0,2 hours 24 mins,driving,51.399221,30.657726,51.1,32.2,200.0
+Kruty,Katerynivka - Krupets,Russian Federation,10278.0,2 hours 51 mins,driving,51.64909047,34.12556717,51.1,32.2,200.0
+Chernihiv,Yahodyn - Dorohusk,Poland,47612.0,13 hours 14 mins,transit,51.1852213611046,23.80777061,51.5,31.3,115.0
+Chernihiv,Yahodyn - Dorohusk,Poland,31254.0,8 hours 41 mins,driving,51.1852213611046,23.80777061,51.5,31.3,115.0
+Chernihiv,Mohyliv-Podilskyi - Otach,Moldova,55781.0,15 hours 30 mins,transit,48.4448585627389,27.7913514087357,51.5,31.3,115.0
+Chernihiv,Mohyliv-Podilskyi - Otach,Moldova,27432.0,7 hours 37 mins,driving,48.4448585627389,27.7913514087357,51.5,31.3,115.0
+Chernihiv,Solotvyno-Sihetu Marmatsiiei,Romania,81835.0,22 hours 44 mins,transit,47.940601987896,23.8781014459885,51.5,31.3,115.0
+Chernihiv,Porubne - Siret,Romania,37315.0,10 hours 22 mins,driving,47.9889804990189,26.0600757026769,51.5,31.3,115.0
+Chernihiv,Uzhhorod - Vyshnie-Niemetske,Slovakia,93360.0,1 day 2 hours,transit,48.6555219632231,22.2659826188978,51.5,31.3,115.0
+Chernihiv,Malyi Bereznyi - Ubl'a,Slovakia,46017.0,12 hours 47 mins,driving,48.8852048505616,22.4206249175739,51.5,31.3,115.0
+Chernihiv,Chop (Tysa) - Zakhon,Hungary,90844.0,1 day 1 hour,transit,48.4185936858801,22.1700658067502,51.5,31.3,115.0
+Chernihiv,Chop (Tysa) - Zakhon,Hungary,47755.0,13 hours 16 mins,driving,48.4185936858801,22.1700658067502,51.5,31.3,115.0
+Chernihiv,Slavutych - Komaryn,Belarus,2947.0,49 mins,driving,51.399221,30.657726,51.5,31.3,115.0
+Chernihiv,Bachivsk - Troiebortne,Russian Federation,21148.0,5 hours 52 mins,transit,51.8748399996953,34.3233899999337,51.5,31.3,115.0
+Chernihiv,Senkivka - Novi Yurkovychi,Russian Federation,5706.0,1 hour 35 mins,driving,52.11158,31.78191,51.5,31.3,115.0
