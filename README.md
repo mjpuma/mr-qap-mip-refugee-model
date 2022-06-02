@@ -7,7 +7,7 @@ This repository complains an ensemble model for developing refugee routes and fl
 3. Route refugees from each conflict zone to the neighbors based on the total number of real or assumed refugees by minimizing travel duration while producing gross flows in proportion with the attraction scores determined in step 1 above.
 
 <p align="center">
-    <img src="images/route_map.png" width="80%" title="Route Mape"/> 
+    <img src="images/route_map.png" width="80%" title="Route Map"/> 
     <br/>
     <i>Example Route Map for Ukraine Conflict</i>
 </p>
@@ -33,7 +33,14 @@ The first modeling step is a model developed in R, `1-attraction-mr-qap.R`. It u
 - Venezuela
 - Nigeria
 
-The model is then fit to the Ukraine conflict to generate predictions.
+The model is then fit to the Ukraine conflict to generate predictions. The resulting gross refugee flows can be compared to the UNHCR's actual reported numbers:
+
+<p align="center" float="left">
+  <img src="images/unhcr.png" height="250" />
+  <img src="images/mr-qap.png" height="250" /> 
+  <br/>
+  <i>Comparing the UNHCR reported refugee counts with the results of the MR-QAP model</i>
+</p>
 
 ## Ego route generation
 
