@@ -35,9 +35,8 @@ The first modeling step is a model developed in R, `1-attraction-mr-qap.R`. It u
 
 The model is then fit to the Ukraine conflict to generate predictions. The resulting gross refugee flows can be compared to the UNHCR's actual reported numbers:
 
-<p align="center" float="left">
-  <img src="images/unhcr.png" height="250" />
-  <img src="images/mr-qap.png" height="250" /> 
+<p align="center" >
+  <img src="images/unhcr_mr-qap.png" />
   <br/>
   <i>Comparing the UNHCR reported refugee counts with the results of the MR-QAP model</i>
 </p>
