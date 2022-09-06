@@ -5,6 +5,7 @@ from tqdm import trange, tqdm
 from matplotlib import pyplot as plt
 from scipy.interpolate import interp1d
 import seaborn as sns
+import os
 
 import numpy as np
 import pandas as pd
@@ -191,6 +192,10 @@ def run_sensitivity(attractions):
 
 
 ##################### Stuff for sensitivity test #####################
+output_dir = 'sensitivity_analysis_output'
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
+
 attraction_keys = list(attractions.keys())
 model_variables = None
 def initialize_results():
@@ -225,7 +230,7 @@ def get_variables():
 
 
 # sensitivity_results = None
-runs = 10 #number of runs to average results over
+runs = 10 #100 #number of runs to average results over
 divs = 20 #number of divisions to check attractions at 
 
 
@@ -239,7 +244,7 @@ for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countri
     mat.columns.name = country
     country_matrices[country] = mat
 
-    for xi in tqdm(xnew, leave=False, desc='proportion of attraction'):
+    for xi in tqdm(xnew, leave=False, desc=f'{country} attraction'):
         for run in trange(runs, leave=False, desc='average over runs'):
             attraction_values = get_sample_proportions(len(attraction_keys)-1)
             attraction_values *= (1-xi)
@@ -257,17 +262,16 @@ for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countri
             
 
     #save results to csv
-    country_matrices[country].to_csv(f'mats/{country}_sensitivity.csv')
+    country_matrices[country].to_csv(os.path.join(output_dir, f'{country}_sensitivity.csv'))
 
 
-pdb.set_trace()
 
 #plot each of the mats
 for country, mat in country_matrices.items():
     fig, ax = plt.subplots()
     sns.heatmap(mat, ax=ax)
     ax.set_title(country)
-    plt.savefig(f'mats/{country}_sensitivity.png')
+    plt.savefig(os.path.join(output_dir, f'{country}_sensitivity.png'))
     plt.close(fig)       
 
 
