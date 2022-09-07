@@ -2,7 +2,9 @@
 
 from typing import List
 from tqdm import trange, tqdm
-from matplotlib import pyplot as plt
+from matplotlib import pyplot as plt, ticker
+
+
 from scipy.interpolate import interp1d
 import seaborn as sns
 import os
@@ -196,6 +198,7 @@ output_dir = 'sensitivity_analysis_output'
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
+original_attractions = attractions.copy() #for plotting compared to original
 attraction_keys = list(attractions.keys())
 model_variables = None
 def initialize_results():
@@ -230,7 +233,7 @@ def get_variables():
 
 
 # sensitivity_results = None
-runs = 10 #100 #number of runs to average results over
+runs = 100 #100 #number of runs to average results over
 divs = 20 #number of divisions to check attractions at 
 
 
@@ -263,16 +266,81 @@ for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countri
 
     #save results to csv
     country_matrices[country].to_csv(os.path.join(output_dir, f'{country}_sensitivity.csv'))
+    
+
+    #### plot results #### TODO: make this a function
+    
+    #sort the matrix for plotting
+    mat = country_matrices[country].copy()
+    #sort first by mode, and then by mean value across all columns
+    key = lambda x: x.split('__')[-1]
+    mat['mode'] = mat.index.map(key)
+    mat['mean'] = mat.mean(axis=1)
+    mat = mat.sort_values(['mode', 'mean'], ascending=[False, False])
+    
+    #get the index that mode switches from 'driving' to 'transit'
+    mode_switch_var = mat[mat['mode'] == 'driving'].index[0]
+    mode_switch_idx = mat.index.get_loc(mode_switch_var)
+    mode_switch_val = mode_switch_idx / len(mat) #normalize to 0-1
+
+    #drop the sorting columns
+    mat = mat.drop(['mode', 'mean'], axis=1)
+
+    #get the data from the matrix
+    data = mat.values
+    
+    ######### actual plotting here #########
+    
+    #set font sizes for titles and axis labels
+    plt.rc('axes', labelsize=14, titlesize=16)
+
+    #plot the data
+    plt.imshow(data, cmap='inferno', aspect='auto', origin='lower')
+
+    #colorbar scaled to millions
+    plt.colorbar(label='refugees (millions)', format=ticker.FuncFormatter(lambda x, pos: '{:,.2f}'.format(x/1e6)))
+    xs = np.arange(0, divs+1, 2)
+    plt.xticks(xs, [f'{x*100:.0f}' for x in xnew[xs]], rotation='horizontal', ha='center')
+    # plt.xticks(range(len(xs)), [f'{int(x*100)}' for x in xs], rotation='vertical')
+    plt.yticks([])
+    plt.title(country)
+    plt.xlabel('Attraction %')
+    
+
+    #add the mode switch line with centering
+    plt.axhline(mode_switch_idx-0.5, color='white', linestyle='--')
+    
+    #plot the hierarchical y-axis label (driving vs transit)
+    ax2 = plt.gca().twinx()
+    ax2.spines["left"].set_position(("axes", -0.025))
+    ax2.tick_params('both', length=0, width=0, which='minor')
+    ax2.tick_params('both', direction='in', which='major')
+    ax2.yaxis.set_ticks_position("left")
+    ax2.yaxis.set_label_position("left")
+    ax2.set_yticks([0.0, mode_switch_val, 1.0])
+    ax2.yaxis.set_major_formatter(ticker.NullFormatter())
+    ax2.yaxis.set_minor_locator(ticker.FixedLocator([mode_switch_val/2, (mode_switch_val+1)/2]))
+    ax2.yaxis.set_minor_formatter(ticker.FixedFormatter(['Transit', 'Driving']))
+    plt.setp(ax2.yaxis.get_minorticklabels(), rotation=90, va="center")
+    plt.ylabel('Route') #ylabel here so that it is relative to the parasite axes
+
+    #add the original attraction as a vertical line + label
+    original_attraction = original_attractions[country] * divs
+    plt.axvline(original_attraction, color='r', linestyle='--')
 
 
 
-#plot each of the mats
-for country, mat in country_matrices.items():
-    fig, ax = plt.subplots()
-    sns.heatmap(mat, ax=ax)
-    ax.set_title(country)
+    #plot each of the routes for this country
+    # sns.heatmap(country_matrices[country], ax=ax)
+    # ax.set_title(country)
+
+    # plt.show()
     plt.savefig(os.path.join(output_dir, f'{country}_sensitivity.png'))
-    plt.close(fig)       
+    plt.close()     
+
+
+
+
 
 
 
