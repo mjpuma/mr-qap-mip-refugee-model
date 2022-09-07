@@ -331,7 +331,7 @@ for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countri
     plt.xticks(xs, [f'{x*100:.0f}' for x in xnew[xs]], rotation='horizontal', ha='center')
     # plt.xticks(range(len(xs)), [f'{int(x*100)}' for x in xs], rotation='vertical')
     plt.yticks([])
-    plt.title(country)
+    plt.title('Route Utilization')
     plt.xlabel('Attraction %')
     
 
@@ -357,6 +357,21 @@ for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countri
     plt.axvline(original_attraction, color='r', linestyle='--')
 
 
-    plt.show()
-    # plt.savefig(os.path.join(output_dir, f'{country}_sensitivity.png')); plt.close()     
+    # plt.show()
+    plt.savefig(os.path.join(output_dir, f'{country}_sensitivity.png')); plt.close()     
 
+
+    #plot the log of the data
+    plt.imshow(np.log(data + 1e-8), cmap='inferno', aspect='auto', origin='lower')
+    plt.xticks(xs, [f'{x*100:.0f}' for x in xnew[xs]], rotation='horizontal', ha='center')
+    plt.yticks([])
+    plt.title('Log Route Utilization')
+    plt.xlabel('Attraction %')
+    #add the mode switch line with centering
+    plt.axhline(mode_switch_idx-0.5, color='white', linestyle='--')
+    plt.axvline(original_attraction, color='r', linestyle='--')
+    plt.colorbar(label='log(refugees)', format=ticker.FuncFormatter(lambda x, pos: '{:,.2f}'.format(x)))
+
+    plt.savefig(os.path.join(output_dir, f'{country}_sensitivity_log.png')); plt.close()
+
+    # plt.show()
