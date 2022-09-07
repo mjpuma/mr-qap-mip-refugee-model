@@ -2,6 +2,7 @@
 
 from typing import List
 from tqdm import trange, tqdm
+from tqdm.contrib.concurrent import process_map
 from matplotlib import pyplot as plt, ticker
 
 
@@ -233,7 +234,7 @@ def get_variables():
 
 
 # sensitivity_results = None
-runs = 100 #100 #number of runs to average results over
+runs = 200 #100 #number of runs to average results over
 divs = 20 #number of divisions to check attractions at 
 
 
@@ -248,13 +249,21 @@ for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countri
     country_matrices[country] = mat
 
     for xi in tqdm(xnew, leave=False, desc=f'{country} attraction'):
-        for run in trange(runs, leave=False, desc='average over runs'):
+        
+        #parallelized version over all runs
+        def get_run(run):
             attraction_values = get_sample_proportions(len(attraction_keys)-1)
             attraction_values *= (1-xi)
             attraction_values = np.insert(attraction_values, i, xi)
             attractions = dict(zip(attraction_keys, attraction_values))
             results = run_sensitivity(attractions)
-            
+            return results
+
+        run_results = process_map(get_run, range(runs), chunksize=10, leave=False, desc='Average over runs')
+        for results in run_results:
+        # for run in trange(2, leave=False, desc='average over runs'):
+        #     results = get_run(run)
+
             #collect results that are for this country
             results = results[results.country == country].copy()
             results['variable'] = results.variable.apply(lambda x: x.name)            
@@ -273,10 +282,13 @@ for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countri
     #sort the matrix for plotting
     mat = country_matrices[country].copy()
     #sort first by mode, and then by mean value across all columns
-    key = lambda x: x.split('__')[-1]
-    mat['mode'] = mat.index.map(key)
-    mat['mean'] = mat.mean(axis=1)
-    mat = mat.sort_values(['mode', 'mean'], ascending=[False, False])
+    mean = mat.mean(axis=1)
+    first = (mat.values > 0).argmax(axis=1)
+    first[mat.values.max(axis=1) == 0] = first.max() + 1
+    mat['mean'] = mean
+    mat['first'] = first
+    mat['mode'] = mat.index.map(lambda x: x.split('__')[-1])
+    mat = mat.sort_values(['mode', 'first', 'mean'], ascending=[False, True, False], kind='mergesort')
     
     #get the index that mode switches from 'driving' to 'transit'
     mode_switch_var = mat[mat['mode'] == 'driving'].index[0]
@@ -284,7 +296,7 @@ for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countri
     mode_switch_val = mode_switch_idx / len(mat) #normalize to 0-1
 
     #drop the sorting columns
-    mat = mat.drop(['mode', 'mean'], axis=1)
+    mat = mat.drop(['mode', 'mean', 'first'], axis=1)
 
     #get the data from the matrix
     data = mat.values
@@ -335,8 +347,7 @@ for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countri
     # ax.set_title(country)
 
     # plt.show()
-    plt.savefig(os.path.join(output_dir, f'{country}_sensitivity.png'))
-    plt.close()     
+    plt.savefig(os.path.join(output_dir, f'{country}_sensitivity.png')); plt.close()     
 
 
 
