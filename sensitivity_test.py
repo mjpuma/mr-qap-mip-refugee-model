@@ -232,6 +232,18 @@ def get_variables():
     results = run_sensitivity(attractions)
     return [v.name for v in results.variable.tolist()]
 
+def get_country_results(xi):
+    #parallelized version over all runs
+    attraction_values = get_sample_proportions(len(attraction_keys)-1)
+    attraction_values *= (1-xi)
+    attraction_values = np.insert(attraction_values, i, xi)
+    attractions = dict(zip(attraction_keys, attraction_values))
+    results = run_sensitivity(attractions)
+    results['variable'] = results.variable.apply(lambda x: x.name) #replace LpVariable with string
+    return results
+
+def average_results(country_result):
+    return pd.concat(country_result)[['variable', 'value']].groupby('variable').mean()
 
 # sensitivity_results = None
 runs = 200 #100 #number of runs to average results over
@@ -241,37 +253,39 @@ divs = 20 #number of divisions to check attractions at
 country_matrices = {}
 variables = get_variables()
 
+xnew = np.linspace(0, 1, divs+1)
 for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countries')):
     country_vars = [v for v in variables if v.lower().split('__')[-2] == country.lower().replace(' ', '')]
-    xnew = np.linspace(0, 1, divs+1)
     mat = pd.DataFrame(np.zeros((len(country_vars), divs+1)), index=country_vars, columns=xnew)
     mat.columns.name = country
     country_matrices[country] = mat
 
-    for xi in tqdm(xnew, leave=False, desc=f'{country} attraction'):
-        
-        #parallelized version over all runs
-        def get_run(run):
-            attraction_values = get_sample_proportions(len(attraction_keys)-1)
-            attraction_values *= (1-xi)
-            attraction_values = np.insert(attraction_values, i, xi)
-            attractions = dict(zip(attraction_keys, attraction_values))
-            results = run_sensitivity(attractions)
-            return results
+    def index_generator():
+        for xi in xnew:
+            for run in range(runs):
+                yield xi
 
-        run_results = process_map(get_run, range(runs), chunksize=10, leave=False, desc='Average over runs')
-        for results in run_results:
-        # for run in trange(2, leave=False, desc='average over runs'):
-        #     results = get_run(run)
+    #run big parallellized loop for all runs + xi values
+    country_results = process_map(get_country_results, [*index_generator()], chunksize=50, leave=False, desc=f'Average {country} runs')
 
-            #collect results that are for this country
-            results = results[results.country == country].copy()
-            results['variable'] = results.variable.apply(lambda x: x.name)            
+    #reshape country results to be runs * divs+1
+    country_results = [country_results[i*runs:(i+1)*runs] for i in range(len(xnew))]
 
-            #add results to matrix
-            for var in results.variable.tolist():
-                country_matrices[country].loc[var, xi] += results[results.variable == var].value.values[0] / runs
-            
+    #average over runs
+    country_results = [average_results(r) for r in country_results]
+    # country_results = process_map(average_results, country_results, chunksize=2, leave=False, desc=f'Average {country} runs')
+
+    #concatenate results along rows, with columns as xi, removing old 'value' from column names
+    country_results = pd.concat(country_results, axis=1, keys=xnew)
+    country_results.columns = country_results.columns.droplevel(1)
+    
+    #remove all non-country variables
+    country_results['country'] = country_results.index.map(lambda x: x.lower().split('__')[-2])
+    country_results = country_results[country_results.country == country.lower().replace(' ', '')]
+    country_results = country_results.drop('country', axis=1)
+    
+    #save results to country matrix
+    country_matrices[country] = country_results
 
     #save results to csv
     country_matrices[country].to_csv(os.path.join(output_dir, f'{country}_sensitivity.csv'))
@@ -279,12 +293,13 @@ for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countri
 
     #### plot results #### TODO: make this a function
     
-    #sort the matrix for plotting
+    ######### sort the matrix for plotting #########
+    
     mat = country_matrices[country].copy()
     #sort first by mode, and then by mean value across all columns
     mean = mat.mean(axis=1)
     first = (mat.values > 0).argmax(axis=1)
-    first[mat.values.max(axis=1) == 0] = first.max() + 1
+    first[mat.values.max(axis=1) <= 0] = first.max() + 1
     mat['mean'] = mean
     mat['first'] = first
     mat['mode'] = mat.index.map(lambda x: x.split('__')[-1])
@@ -300,6 +315,7 @@ for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countri
 
     #get the data from the matrix
     data = mat.values
+    data[data < 0] = 0 #replace negative values with 0
     
     ######### actual plotting here #########
     
@@ -341,27 +357,6 @@ for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countri
     plt.axvline(original_attraction, color='r', linestyle='--')
 
 
+    plt.show()
+    # plt.savefig(os.path.join(output_dir, f'{country}_sensitivity.png')); plt.close()     
 
-    #plot each of the routes for this country
-    # sns.heatmap(country_matrices[country], ax=ax)
-    # ax.set_title(country)
-
-    # plt.show()
-    plt.savefig(os.path.join(output_dir, f'{country}_sensitivity.png')); plt.close()     
-
-
-
-
-
-
-
-#plot the results
-# for country, data in tqdm(sensitivity_results.items(), desc='saving plots for each country'):
-#     for var, values in tqdm(data.items(), leave=False, desc='saving plots for each variable'):
-#         plt.scatter(values[0], values[1], alpha=0.1)
-#         plt.title(f"{country} | {var}")
-#         plt.xlabel('attraction')
-#         plt.ylabel('refugees')
-#         #save the plot
-#         plt.savefig(f"plots/{country}__{var}.png")
-#         plt.close()
