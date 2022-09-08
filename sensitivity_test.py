@@ -246,23 +246,17 @@ def average_results(country_result):
     return pd.concat(country_result)[['variable', 'value']].groupby('variable').mean()
 
 # sensitivity_results = None
-runs = 200 #100 #number of runs to average results over
-divs = 20 #number of divisions to check attractions at 
+runs = 200 #number of runs to average results over
+divs = 20  #number of divisions to check attractions at 
 
 
-country_matrices = {}
-variables = get_variables()
 
-xnew = np.linspace(0, 1, divs+1)
 for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countries')):
-    country_vars = [v for v in variables if v.lower().split('__')[-2] == country.lower().replace(' ', '')]
-    mat = pd.DataFrame(np.zeros((len(country_vars), divs+1)), index=country_vars, columns=xnew)
-    mat.columns.name = country
-    country_matrices[country] = mat
+    xnew = np.linspace(0, 1, divs+1) #what attraction percentages to check
 
     def index_generator():
-        for xi in xnew:
-            for run in range(runs):
+        for xi in xnew: #attraction percent
+            for run in range(runs): #runs to average over
                 yield xi
 
     #run big parallellized loop for all runs + xi values
@@ -273,7 +267,6 @@ for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countri
 
     #average over runs
     country_results = [average_results(r) for r in country_results]
-    # country_results = process_map(average_results, country_results, chunksize=2, leave=False, desc=f'Average {country} runs')
 
     #concatenate results along rows, with columns as xi, removing old 'value' from column names
     country_results = pd.concat(country_results, axis=1, keys=xnew)
@@ -283,19 +276,11 @@ for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countri
     country_results['country'] = country_results.index.map(lambda x: x.lower().split('__')[-2])
     country_results = country_results[country_results.country == country.lower().replace(' ', '')]
     country_results = country_results.drop('country', axis=1)
-    
-    #save results to country matrix
-    country_matrices[country] = country_results
 
-    #save results to csv
-    country_matrices[country].to_csv(os.path.join(output_dir, f'{country}_sensitivity.csv'))
     
-
-    #### plot results #### TODO: make this a function
+    ######### preprocess + sort the matrix for plotting #########
     
-    ######### sort the matrix for plotting #########
-    
-    mat = country_matrices[country].copy()
+    mat = country_results.copy()
     #sort first by mode, and then by mean value across all columns
     mean = mat.mean(axis=1)
     first = (mat.values > 0).argmax(axis=1)
@@ -313,11 +298,12 @@ for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countri
     #drop the sorting columns
     mat = mat.drop(['mode', 'mean', 'first'], axis=1)
 
-    #get the data from the matrix
-    data = mat.values
-    data[data < 0] = 0 #replace negative values with 0
+    #replace negative values with 0
+    mat[mat < 0] = 0
     
+
     ######### actual plotting here #########
+    data = mat.values
     
     #set font sizes for titles and axis labels
     plt.rc('axes', labelsize=14, titlesize=16)
@@ -327,9 +313,10 @@ for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countri
 
     #colorbar scaled to millions
     plt.colorbar(label='refugees (millions)', format=ticker.FuncFormatter(lambda x, pos: '{:,.2f}'.format(x/1e6)))
-    xs = np.arange(0, divs+1, 2)
-    plt.xticks(xs, [f'{x*100:.0f}' for x in xnew[xs]], rotation='horizontal', ha='center')
-    # plt.xticks(range(len(xs)), [f'{int(x*100)}' for x in xs], rotation='vertical')
+    num_xticks = 11
+    xticks = np.linspace(0, divs+1, num_xticks)-0.5
+    xlabels = [f'{x*100:.0f}' for x in np.linspace(0, 1, num_xticks)]
+    plt.xticks(xticks, xlabels, rotation='horizontal', ha='center')
     plt.yticks([])
     plt.title('Route Utilization')
     plt.xlabel('Attraction %')
@@ -355,6 +342,7 @@ for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countri
     #add the original attraction as a vertical line + label
     original_attraction = original_attractions[country] * divs
     plt.axvline(original_attraction, color='r', linestyle='--')
+    plt.text(original_attraction, 0.5, 'MR-QAP\nAttraction', rotation=90, va='center', ha='center', color='w')
 
 
     # plt.show()
@@ -363,7 +351,7 @@ for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countri
 
     #plot the log of the data
     plt.imshow(np.log(data + 1e-8), cmap='inferno', aspect='auto', origin='lower')
-    plt.xticks(xs, [f'{x*100:.0f}' for x in xnew[xs]], rotation='horizontal', ha='center')
+    plt.xticks(xticks, xlabels, rotation='horizontal', ha='center')
     plt.yticks([])
     plt.title('Log Route Utilization')
     plt.xlabel('Attraction %')
@@ -372,6 +360,13 @@ for i, country in enumerate(tqdm(attraction_keys, desc='sensitivity over countri
     plt.axvline(original_attraction, color='r', linestyle='--')
     plt.colorbar(label='log(refugees)', format=ticker.FuncFormatter(lambda x, pos: '{:,.2f}'.format(x)))
 
-    plt.savefig(os.path.join(output_dir, f'{country}_sensitivity_log.png')); plt.close()
 
     # plt.show()
+    plt.savefig(os.path.join(output_dir, f'{country}_sensitivity_log.png')); plt.close()
+
+
+
+    ########### save results to csv ###########
+    #invert the order of the rows (since the plots are inverted)
+    mat = mat.iloc[::-1]
+    mat.to_csv(os.path.join(output_dir, f'{country}_sensitivity.csv'))
